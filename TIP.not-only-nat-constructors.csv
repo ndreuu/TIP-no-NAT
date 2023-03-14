@@ -204,7 +204,7 @@ isaplanner_prop_16, b'unsat\n'
 tip2015_int_mul_ident_right, b'unsat\n'
 tip2015_propositional_AndIdempotent, b'unsat\n'
 false_regexp_deluxe_koen, TIMEOUT
-tip2015_regexp_PlusIdempotent, b'sat\n'
+tip2015_regexp_PlusIdempotent, TIMEOUT
 tip2015_sort_nat_NStoogeSort2Count, b'unsat\n'
 prod_prop_12, b'unsat\n'
 isaplanner_prop_37, b'unsat\n'
