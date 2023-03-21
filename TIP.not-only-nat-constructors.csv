@@ -5,7 +5,7 @@ tip2015_sort_nat_HSort2Count ,  TIMEOUT
 tip2015_regexp_RecAtom ,  TIMEOUT
 false_productive_use_of_failure_app_inj1 ,  TIMEOUT
 false_graph_tp5 ,  TIMEOUT
-prod_prop_47 ,  b'unsat\n'
+prod_prop_47 ,  TIMEOUT
 false_graph_p31 ,  TIMEOUT
 false_productive_use_of_failure_union_comm ,  b'unsat\n'
 tip2015_regexp_RecNil ,  b'sat\n'
@@ -105,7 +105,7 @@ tip2015_sort_nat_HSortIsSort ,  b'unsat\n'
 tip2015_sort_NStoogeSort2Sorts ,  b'unsat\n'
 tip2015_bin_nat_plus_comm ,  TIMEOUT
 tip2015_sort_nat_StoogeSort2IsSort ,  b'unsat\n'
-tip2015_rotate_mod ,  TIMEOUT
+tip2015_rotate_mod ,  b'unsat\n'
 false_regexp_kfind6 ,  TIMEOUT
 false_productive_use_of_failure_rot_inj00 ,  TIMEOUT
 isaplanner_prop_75 ,  TIMEOUT
@@ -196,7 +196,7 @@ tip2015_sort_StoogeSort2Count ,  TIMEOUT
 isaplanner_prop_77 ,  b'unsat\n'
 false_mergesort_merge_comm ,  b'unsat\n'
 false_regexp_star_plus ,  TIMEOUT
-tip2015_sort_nat_TSortIsSort ,  b'unsat\n'
+tip2015_sort_nat_TSortIsSort ,  TIMEOUT
 tip2015_propositional_Sound ,  TIMEOUT
 tip2015_sort_nat_NStoogeSort2Sorts ,  b'unsat\n'
 tip2015_list_nat_append_inj_1 ,  TIMEOUT
@@ -278,7 +278,7 @@ tip2015_escape_Injective ,  TIMEOUT
 isaplanner_prop_56 ,  b'unsat\n'
 prod_prop_32 ,  TIMEOUT
 tip2015_sort_nat_BSortSorts ,  b'sat\n'
-tip2015_sort_nat_MSortTDSorts ,  b'sat\n'
+tip2015_sort_nat_MSortTDSorts ,  b'unsat\n'
 prod_prop_45 ,  TIMEOUT
 tip2015_rotate_self ,  TIMEOUT
 false_regexp_kfind4 ,  TIMEOUT
