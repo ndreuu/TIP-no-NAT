@@ -40,7 +40,7 @@ isaplanner_prop_61 ,  TIMEOUT
 prod_prop_22 ,  TIMEOUT
 false_regexp_deluxe_switcheroo ,  TIMEOUT
 tip2015_sort_StoogeSortIsSort ,  b'unsat\n'
-prod_prop_50 ,  b'unsat\n'
+prod_prop_50 ,  TIMEOUT
 false_productive_use_of_failure_rot_inj1 ,  TIMEOUT
 false_graph_bt4 ,  TIMEOUT
 tip2015_sort_nat_HSort2IsSort ,  b'unsat\n'
@@ -170,7 +170,7 @@ tip2015_sort_MSortTDSorts ,  b'unsat\n'
 false_regexp_kfind2 ,  TIMEOUT
 tip2015_sort_NStoogeSortIsSort ,  b'unsat\n'
 false_productive_use_of_failure_drop_inj2 ,  b'unsat\n'
-prod_prop_49 ,  b'unsat\n'
+prod_prop_49 ,  TIMEOUT
 false_regexp_find1 ,  TIMEOUT
 isaplanner_prop_16 ,  b'sat\n'
 tip2015_propositional_AndIdempotent ,  b'sat\n'
@@ -211,7 +211,7 @@ tip2015_sort_nat_TSortCount ,  TIMEOUT
 tip2015_sort_StoogeSortCount ,  TIMEOUT
 tip2015_sort_nat_BubSortIsSort ,  b'unsat\n'
 false_productive_use_of_failure_drop_inj1 ,  b'unsat\n'
-isaplanner_prop_53 ,  b'unsat\n'
+isaplanner_prop_53 ,  TIMEOUT
 tip2015_bin_nat_times ,  TIMEOUT
 tip2015_regexp_Reverse ,  TIMEOUT
 false_regexp_star_plus_1 ,  TIMEOUT
@@ -278,8 +278,8 @@ tip2015_escape_Injective ,  TIMEOUT
 isaplanner_prop_56 ,  b'unsat\n'
 prod_prop_32 ,  TIMEOUT
 tip2015_sort_nat_BSortSorts ,  b'sat\n'
-tip2015_sort_nat_MSortTDSorts ,  b'unsat\n'
-prod_prop_45 ,  b'unsat\n'
+tip2015_sort_nat_MSortTDSorts ,  b'sat\n'
+prod_prop_45 ,  TIMEOUT
 tip2015_rotate_self ,  TIMEOUT
 false_regexp_kfind4 ,  TIMEOUT
 false_graph_d7 ,  TIMEOUT
@@ -287,11 +287,11 @@ tip2015_sort_ISortSorts ,  b'unsat\n'
 tip2015_sort_StoogeSortSorts ,  b'unsat\n'
 isaplanner_prop_45 ,  TIMEOUT
 isaplanner_prop_46 ,  b'sat\n'
-tip2015_sort_nat_MSortTDCount ,  TIMEOUT
+tip2015_sort_nat_MSortTDCount ,  b'unsat\n'
 isaplanner_prop_78 ,  b'unsat\n'
 false_hotel_key_safe0 ,  TIMEOUT
 tip2015_relaxedprefix_is_prefix_2 ,  TIMEOUT
-prod_prop_46 ,  b'unsat\n'
+prod_prop_46 ,  TIMEOUT
 tip2015_sort_nat_StoogeSortSorts ,  b'unsat\n'
 tip2015_sort_nat_BubSortCount ,  TIMEOUT
 false_regexp_koen_easy ,  TIMEOUT
@@ -312,10 +312,10 @@ prod_prop_03 ,  TIMEOUT
 prod_prop_07 ,  TIMEOUT
 tip2015_sort_StoogeSort2Sorts ,  b'unsat\n'
 tip2015_regexp_PlusAssociative ,  TIMEOUT
-isaplanner_prop_71 ,  b'unsat\n'
+isaplanner_prop_71 ,  TIMEOUT
 false_productive_use_of_failure_rot_bogus ,  b'unsat\n'
 prod_prop_19 ,  TIMEOUT
-isaplanner_prop_30 ,  b'unsat\n'
+isaplanner_prop_30 ,  TIMEOUT
 tip2015_list_nat_Interleave ,  TIMEOUT
 false_queue2_QueueR ,  TIMEOUT
 tip2015_sort_MSortTDIsSort ,  b'unsat\n'
