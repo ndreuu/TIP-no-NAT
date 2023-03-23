@@ -26,10 +26,9 @@
 	(minus_132 Z_728 Z_728 y_715)))
 (assert (forall ((x_18486 Int) (y_715 Int) (r_150 Int))
 	(=> (minus_132 r_150 x_18486 y_715) (minus_132 (S_211 r_150) (S_211 x_18486) y_715))))
-(assert (forall ((y_715 Int))
-	(le_129 Z_728 y_715)))
-(assert (forall ((x_18486 Int) (y_715 Int))
-	(=> (le_129 x_18486 y_715) (le_129 (S_211 x_18486) (S_211 y_715)))))
+
+(assert (forall ((x Int) (y Int)) (=> (<= x y) (le_129 x y))))
+
 (assert (forall ((y_715 Int))
 	(ge_129 y_715 Z_728)))
 (assert (forall ((x_18486 Int) (y_715 Int))
@@ -38,10 +37,8 @@
 	(lt_133 Z_728 (S_211 y_715))))
 (assert (forall ((x_18486 Int) (y_715 Int))
 	(=> (lt_133 x_18486 y_715) (lt_133 (S_211 x_18486) (S_211 y_715)))))
-(assert (forall ((y_715 Int))
-	(gt_130 (S_211 y_715) Z_728)))
-(assert (forall ((x_18486 Int) (y_715 Int))
-	(=> (gt_130 x_18486 y_715) (gt_130 (S_211 x_18486) (S_211 y_715)))))
+(assert (forall ((x Int) (y Int)) (=> (> x y) (gt_130 x y))))
+
 (assert (forall ((y_715 Int))
 	(mult_129 Z_728 Z_728 y_715)))
 (assert (forall ((x_18486 Int) (y_715 Int) (r_150 Int) (z_729 Int))

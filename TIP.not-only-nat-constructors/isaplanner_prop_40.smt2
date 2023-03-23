@@ -87,7 +87,7 @@
 	(isS_67 (S_67 x_1903))))
 (declare-fun take_7 (list_32 Int list_32) Bool)
 (assert (forall ((x_1881 list_32) (x_1878 Int) (x_1879 list_32) (z_193 Int))
-	(=> (take_7 x_1881 z_193 x_1879) (take_7 (cons_32 x_1878 x_1881) (S_67 z_193) (cons_32 x_1878 x_1879)))))
+	(=> (and (distinct (S_67 z_193) Z_192) (take_7 x_1881 z_193 x_1879)) (take_7 (cons_32 x_1878 x_1881) (S_67 z_193) (cons_32 x_1878 x_1879)))))
 (assert (forall ((z_193 Int))
 	(take_7 nil_32 (S_67 z_193) nil_32)))
 (assert (forall ((y_151 list_32))

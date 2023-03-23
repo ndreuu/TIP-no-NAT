@@ -34,7 +34,7 @@
 (assert (forall ((x_58648 list_289))
 	(drop_58 x_58648 Z_2265 x_58648)))
 (assert (forall ((x_58649 list_289) (x_58646 Int) (x_58647 list_289) (z_2266 Int))
-	(=> (drop_58 x_58649 z_2266 x_58647) (drop_58 x_58649 (S_526 z_2266) (cons_287 x_58646 x_58647)))))
+	(=> (and (distinct Z_2265 (S_526 z_2266)) (drop_58 x_58649 z_2266 x_58647)) (drop_58 x_58649 (S_526 z_2266) (cons_287 x_58646 x_58647)))))
 (assert (forall ((z_2266 Int))
 	(drop_58 nil_320 (S_526 z_2266) nil_320)))
 (assert (forall ((x_58652 list_289) (x_58653 list_289) (x_58654 list_289) (x_58655 list_289) (n_110 Int) (m_42 Int) (xs_743 list_289))

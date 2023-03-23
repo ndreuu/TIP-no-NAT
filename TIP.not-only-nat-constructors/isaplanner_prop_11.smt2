@@ -87,7 +87,7 @@
 	(isS_112 (S_112 x_3121))))
 (declare-fun drop_11 (list_52 Int list_52) Bool)
 (assert (forall ((x_3098 list_52) (x_3096 Int) (x_3097 list_52) (z_318 Int))
-	(=> (drop_11 x_3098 z_318 x_3097) (drop_11 x_3098 (S_112 z_318) (cons_52 x_3096 x_3097)))))
+	(=> (and (distinct Z_317 (S_112 z_318)) (drop_11 x_3098 z_318 x_3097)) (drop_11 x_3098 (S_112 z_318) (cons_52 x_3096 x_3097)))))
 (assert (forall ((z_318 Int))
 	(drop_11 nil_52 (S_112 z_318) nil_52)))
 (assert (forall ((x_3101 list_52))
