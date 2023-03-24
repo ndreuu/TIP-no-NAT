@@ -109,5 +109,5 @@
 (assert (forall ((x_1384 list_26))
 	(x_1369 x_1384 nil_26 x_1384)))
 (assert (forall ((x_1385 list_26) (x_1386 list_26) (x_1387 list_26) (x_1388 Int) (x_1389 Int) (x_1390 list_26) (x_1391 list_26) (n_10 Int) (xs_38 list_26) (ys_13 list_26))
-	(=> (and true (diseqlist_26 x_1386 x_1391) (x_1369 x_1385 xs_38 ys_13) (take_6 x_1386 n_10 x_1385) (take_6 x_1387 n_10 xs_38) (len_5 x_1388 xs_38) (x_1366 x_1389 n_10 x_1388) (take_6 x_1390 x_1389 ys_13) (x_1369 x_1391 x_1387 x_1390)) false)))
+	(=> (and (diseqlist_26 x_1386 x_1391) (x_1369 x_1385 xs_38 ys_13) (take_6 x_1386 n_10 x_1385) (take_6 x_1387 n_10 xs_38) (len_5 x_1388 xs_38) (x_1366 x_1389 n_10 x_1388) (take_6 x_1390 x_1389 ys_13) (x_1369 x_1391 x_1387 x_1390)) false)))
 (check-sat)

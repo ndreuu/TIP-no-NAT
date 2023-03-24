@@ -86,5 +86,5 @@
 (assert (forall ((x_55670 Int))
 	(insert_32 (cons_250 x_55670 nil_280) x_55670 nil_280)))
 (assert (forall ((x_55694 list_250) (x_55671 Int) (y_2325 list_250))
-	(=> (and true (insert_32 x_55694 x_55671 y_2325) (elem_20 false_349 x_55671 x_55694)) false)))
+	(=> (and (insert_32 x_55694 x_55671 y_2325) (elem_20 false_349 x_55671 x_55694)) false)))
 (check-sat)

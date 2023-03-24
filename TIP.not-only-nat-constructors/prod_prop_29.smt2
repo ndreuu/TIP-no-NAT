@@ -90,5 +90,5 @@
 	(=> (and (rev_14 x_55597 xs_668) (x_55586 x_55596 x_55597 (cons_249 y_2312 nil_279))) (rev_14 x_55596 (cons_249 y_2312 xs_668)))))
 (assert (rev_14 nil_279 nil_279))
 (assert (forall ((x_55600 list_249) (x_55601 list_249) (x_55589 list_249))
-	(=> (and true (diseqlist_249 x_55601 x_55589) (qrev_2 x_55600 x_55589 nil_279) (rev_14 x_55601 x_55600)) false)))
+	(=> (and (diseqlist_249 x_55601 x_55589) (qrev_2 x_55600 x_55589 nil_279) (rev_14 x_55601 x_55600)) false)))
 (check-sat)

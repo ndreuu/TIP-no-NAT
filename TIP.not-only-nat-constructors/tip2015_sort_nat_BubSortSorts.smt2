@@ -94,5 +94,5 @@
 (assert (forall ((ys_170 list_194) (x_49863 list_194))
 	(=> (bubble_4 (pair_83 false_265 ys_170) x_49863) (bubsort_4 x_49863 x_49863))))
 (assert (forall ((x_49886 list_194) (xs_529 list_194))
-	(=> (and true (bubsort_4 x_49886 xs_529) (ordered_18 false_265 x_49886)) false)))
+	(=> (and (bubsort_4 x_49886 xs_529) (ordered_18 false_265 x_49886)) false)))
 (check-sat)

@@ -93,5 +93,5 @@
 (assert (forall ((z Int) (x_3101 list_52))
 	(=> (<= z 0) (drop_11 x_3101 z x_3101))))
 (assert (forall ((x_3102 list_52) (xs_95 list_52))
-	(=> (and true (diseqlist_52 x_3102 xs_95) (drop_11 x_3102 Z_317 xs_95)) false)))
+	(=> (and (diseqlist_52 x_3102 xs_95) (drop_11 x_3102 Z_317 xs_95)) false)))
 (check-sat)

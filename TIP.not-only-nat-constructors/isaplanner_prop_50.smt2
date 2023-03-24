@@ -110,5 +110,5 @@
 (assert (forall ((y_74 Int))
 	(x_992 Z_90 Z_90 y_74)))
 (assert (forall ((x_1010 list_20) (x_1011 Int) (x_1012 Int) (x_1013 list_20) (xs_24 list_20))
-	(=> (and true (diseqlist_20 x_1010 x_1013) (butlast_0 x_1010 xs_24) (len_3 x_1011 xs_24) (x_992 x_1012 x_1011 (S_32 Z_90)) (take_3 x_1013 x_1012 xs_24)) false)))
+	(=> (and (diseqlist_20 x_1010 x_1013) (butlast_0 x_1010 xs_24) (len_3 x_1011 xs_24) (x_992 x_1012 x_1011 (S_32 Z_90)) (take_3 x_1013 x_1012 xs_24)) false)))
 (check-sat)

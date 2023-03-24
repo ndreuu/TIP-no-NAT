@@ -409,5 +409,5 @@
 (assert (forall ((x_107953 Q_304))
 	(=> (empty_15 x_107953) (queue_5 x_107953 Empty_14))))
 (assert (forall ((x_107955 Q_304) (x_107956 Maybe_19) (x_107957 list_358) (x_107958 Maybe_19) (e_61 E_52))
-	(=> (and true (diseqMaybe_19 x_107956 x_107958) (queue_5 x_107955 e_61) (fstR_2 x_107956 x_107955) (list_359 x_107957 e_61) (last_14 x_107958 x_107957)) false)))
+	(=> (and (diseqMaybe_19 x_107956 x_107958) (queue_5 x_107955 e_61) (fstR_2 x_107956 x_107955) (list_359 x_107957 e_61) (last_14 x_107958 x_107957)) false)))
 (check-sat)

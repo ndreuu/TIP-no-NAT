@@ -105,5 +105,5 @@
 (assert (forall ((z Int) (x_2987 Int))
 	(=> (<= z 0) (x_2975 x_2987 z x_2987))))
 (assert (forall ((x_2988 list_50) (x_2989 list_50) (x_2990 Int) (x_2991 list_50) (x_2992 list_50) (n_22 Int) (m_10 Int) (xs_91 list_50))
-	(=> (and true (diseqlist_50 x_2989 x_2992) (drop_10 x_2988 m_10 xs_91) (take_10 x_2989 n_22 x_2988) (x_2975 x_2990 n_22 m_10) (take_10 x_2991 x_2990 xs_91) (drop_10 x_2992 m_10 x_2991)) false)))
+	(=> (and (diseqlist_50 x_2989 x_2992) (drop_10 x_2988 m_10 xs_91) (take_10 x_2989 n_22 x_2988) (x_2975 x_2990 n_22 m_10) (take_10 x_2991 x_2990 xs_91) (drop_10 x_2992 m_10 x_2991)) false)))
 (check-sat)

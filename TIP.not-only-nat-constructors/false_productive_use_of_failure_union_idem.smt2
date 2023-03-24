@@ -79,5 +79,5 @@
 (assert (forall ((x_70221 list_315))
 	(union_3 x_70221 nil_353 x_70221)))
 (assert (forall ((x_70222 list_315) (xs_784 list_315))
-	(=> (and true (diseqlist_312 x_70222 xs_784) (union_3 x_70222 xs_784 xs_784)) false)))
+	(=> (and (diseqlist_312 x_70222 xs_784) (union_3 x_70222 xs_784 xs_784)) false)))
 (check-sat)

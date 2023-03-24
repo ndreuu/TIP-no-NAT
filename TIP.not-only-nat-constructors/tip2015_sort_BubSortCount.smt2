@@ -137,5 +137,5 @@
 (assert (forall ((ys_108 list_130) (x_27371 list_130))
 	(=> (bubble_3 (pair_51 false_184 ys_108) x_27371) (bubsort_3 x_27371 x_27371))))
 (assert (forall ((x_27389 list_130) (x_27390 Int) (x_27391 Int) (x_27372 Int) (xs_346 list_130))
-	(=> (and true (distinct x_27390 x_27391) (bubsort_3 x_27389 xs_346) (count_20 x_27390 x_27372 x_27389) (count_20 x_27391 x_27372 xs_346)) false)))
+	(=> (and (distinct x_27390 x_27391) (bubsort_3 x_27389 xs_346) (count_20 x_27390 x_27372 x_27389) (count_20 x_27391 x_27372 xs_346)) false)))
 (check-sat)

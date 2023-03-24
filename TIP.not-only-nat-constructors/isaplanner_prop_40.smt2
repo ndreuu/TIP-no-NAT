@@ -93,5 +93,5 @@
 (assert (forall ((y_151 list_32))
 	(take_7 nil_32 Z_192 y_151)))
 (assert (forall ((x_1884 list_32) (xs_51 list_32))
-	(=> (and true (diseqlist_32 x_1884 nil_32) (take_7 x_1884 Z_192 xs_51)) false)))
+	(=> (and (diseqlist_32 x_1884 nil_32) (take_7 x_1884 Z_192 xs_51)) false)))
 (check-sat)

@@ -113,5 +113,5 @@
 	(bsort_2 (cons_108 y_812 nil_119) (cons_108 y_812 nil_119))))
 (assert (bsort_2 nil_119 nil_119))
 (assert (forall ((x_21734 list_108) (xs_256 list_108))
-	(=> (and true (bsort_2 x_21734 xs_256) (ordered_6 false_144 x_21734)) false)))
+	(=> (and (bsort_2 x_21734 xs_256) (ordered_6 false_144 x_21734)) false)))
 (check-sat)

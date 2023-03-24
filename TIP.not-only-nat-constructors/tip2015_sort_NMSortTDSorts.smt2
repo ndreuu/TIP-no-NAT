@@ -153,5 +153,5 @@
 	(nmsorttd_1 (cons_158 y_1522 nil_180) (cons_158 y_1522 nil_180))))
 (assert (nmsorttd_1 nil_180 nil_180))
 (assert (forall ((x_42460 list_158) (xs_447 list_158))
-	(=> (and true (nmsorttd_1 x_42460 xs_447) (ordered_15 false_231 x_42460)) false)))
+	(=> (and (nmsorttd_1 x_42460 xs_447) (ordered_15 false_231 x_42460)) false)))
 (check-sat)

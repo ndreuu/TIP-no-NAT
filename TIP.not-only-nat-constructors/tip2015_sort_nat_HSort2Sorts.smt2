@@ -115,5 +115,5 @@
 (assert (forall ((x_50715 list_198) (x_50716 Heap_9) (x_50687 list_198))
 	(=> (and (toHeap_13 x_50716 x_50687) (toList_9 x_50715 x_50716)) (hsort_9 x_50715 x_50687))))
 (assert (forall ((x_50718 list_198) (xs_540 list_198))
-	(=> (and true (hsort_9 x_50718 xs_540) (ordered_20 false_277 x_50718)) false)))
+	(=> (and (hsort_9 x_50718 xs_540) (ordered_20 false_277 x_50718)) false)))
 (check-sat)

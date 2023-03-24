@@ -289,5 +289,5 @@
 (assert (forall ((x_126878 list_407))
 	(run_0 nil_468 x_126878 nil_469)))
 (assert (forall ((x_126935 list_407) (x_126936 P_616) (x_126937 list_407) (p_619 P_616))
-	(=> (and true (diseqlist_401 x_126935 x_126937) (run_0 x_126935 nil_468 (cons_402 p_619 nil_469)) (opti_0 x_126936 p_619) (run_0 x_126937 nil_468 (cons_402 x_126936 nil_469))) false)))
+	(=> (and (diseqlist_401 x_126935 x_126937) (run_0 x_126935 nil_468 (cons_402 p_619 nil_469)) (opti_0 x_126936 p_619) (run_0 x_126937 nil_468 (cons_402 x_126936 nil_469))) false)))
 (check-sat)

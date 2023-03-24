@@ -102,5 +102,5 @@
 (assert (forall ((x_56365 list_261))
 	(rotate_6 x_56365 Z_2157 x_56365)))
 (assert (forall ((x_56366 Int) (x_56367 list_261) (x_56354 list_261))
-	(=> (and true (diseqlist_261 x_56367 x_56354) (length_52 x_56366 x_56354) (rotate_6 x_56367 x_56366 x_56354)) false)))
+	(=> (and (diseqlist_261 x_56367 x_56354) (length_52 x_56366 x_56354) (rotate_6 x_56367 x_56366 x_56354)) false)))
 (check-sat)

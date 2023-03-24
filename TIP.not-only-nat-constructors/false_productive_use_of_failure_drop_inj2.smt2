@@ -38,5 +38,5 @@
 (assert (forall ((z_2458 Int))
 	(drop_62 nil_375 (S_567 z_2458) nil_375)))
 (assert (forall ((x_77489 list_334) (n_114 Int) (xs_812 list_334) (ys_227 list_334))
-	(=> (and true (diseqlist_330 xs_812 ys_227) (drop_62 x_77489 n_114 xs_812) (drop_62 x_77489 n_114 ys_227)) false)))
+	(=> (and (diseqlist_330 xs_812 ys_227) (drop_62 x_77489 n_114 xs_812) (drop_62 x_77489 n_114 ys_227)) false)))
 (check-sat)

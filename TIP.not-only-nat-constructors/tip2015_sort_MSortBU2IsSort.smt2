@@ -138,5 +138,5 @@
 	(=> (and (isort_22 x_45659 xs_479) (insert_22 x_45658 y_1612 x_45659)) (isort_22 x_45658 (cons_174 y_1612 xs_479)))))
 (assert (isort_22 nil_199 nil_199))
 (assert (forall ((x_45662 list_174) (x_45663 list_174) (xs_480 list_174))
-	(=> (and true (diseqlist_174 x_45662 x_45663) (msortbu_2 x_45662 xs_480) (isort_22 x_45663 xs_480)) false)))
+	(=> (and (diseqlist_174 x_45662 x_45663) (msortbu_2 x_45662 xs_480) (isort_22 x_45663 xs_480)) false)))
 (check-sat)

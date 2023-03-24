@@ -92,5 +92,5 @@
 (assert (forall ((x_1062 list_21) (x_1050 list_21))
 	(=> (butlast_1 x_1062 x_1050) (butlastConcat_0 x_1062 x_1050 nil_21))))
 (assert (forall ((x_1064 list_21) (x_1065 list_21) (x_1066 list_21) (xs_26 list_21) (ys_9 list_21))
-	(=> (and true (diseqlist_21 x_1065 x_1066) (x_1048 x_1064 xs_26 ys_9) (butlast_1 x_1065 x_1064) (butlastConcat_0 x_1066 xs_26 ys_9)) false)))
+	(=> (and (diseqlist_21 x_1065 x_1066) (x_1048 x_1064 xs_26 ys_9) (butlast_1 x_1065 x_1064) (butlastConcat_0 x_1066 xs_26 ys_9)) false)))
 (check-sat)

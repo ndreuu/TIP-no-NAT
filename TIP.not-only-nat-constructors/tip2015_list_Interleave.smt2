@@ -89,5 +89,5 @@
 	(=> (evens_6 x_26693 xs_340) (odds_6 x_26693 (cons_126 y_1063 xs_340)))))
 (assert (odds_6 nil_140 nil_140))
 (assert (forall ((x_26696 list_126) (x_26697 list_126) (x_26698 list_126) (xs_341 list_126))
-	(=> (and true (diseqlist_126 x_26698 xs_341) (evens_6 x_26696 xs_341) (odds_6 x_26697 xs_341) (interleave_1 x_26698 x_26696 x_26697)) false)))
+	(=> (and (diseqlist_126 x_26698 xs_341) (evens_6 x_26696 xs_341) (odds_6 x_26697 xs_341) (interleave_1 x_26698 x_26696 x_26697)) false)))
 (check-sat)

@@ -124,5 +124,5 @@
 (assert (forall ((x_4 Int) (y_1 list_0))
 	(zipConcat_0 nil_1 x_4 y_1 nil_0)))
 (assert (forall ((x_13 list_1) (x_14 list_1) (x_5 Int) (xs_0 list_0) (ys_1 list_0))
-	(=> (and true (diseqlist_1 x_13 x_14) (zip_0 x_13 (cons_0 x_5 xs_0) ys_1) (zipConcat_0 x_14 x_5 xs_0 ys_1)) false)))
+	(=> (and (diseqlist_1 x_13 x_14) (zip_0 x_13 (cons_0 x_5 xs_0) ys_1) (zipConcat_0 x_14 x_5 xs_0 ys_1)) false)))
 (check-sat)

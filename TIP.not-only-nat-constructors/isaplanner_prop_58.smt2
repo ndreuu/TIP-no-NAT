@@ -117,5 +117,5 @@
 (assert (forall ((n Int) (x_566 list_11))
 	(=> (<= n 0) (drop_3 x_566 n x_566))))
 (assert (forall ((x_567 list_11) (x_568 list_11) (x_569 list_10) (x_570 list_10) (x_571 list_11) (n_4 Int) (xs_17 list_10) (ys_5 list_10))
-	(=> (and true (diseqlist_11 x_568 x_571) (zip_2 x_567 xs_17 ys_5) (drop_3 x_568 n_4 x_567) (drop_2 x_569 n_4 xs_17) (drop_2 x_570 n_4 ys_5) (zip_2 x_571 x_569 x_570)) false)))
+	(=> (and (diseqlist_11 x_568 x_571) (zip_2 x_567 xs_17 ys_5) (drop_3 x_568 n_4 x_567) (drop_2 x_569 n_4 xs_17) (drop_2 x_570 n_4 ys_5) (zip_2 x_571 x_569 x_570)) false)))
 (check-sat)

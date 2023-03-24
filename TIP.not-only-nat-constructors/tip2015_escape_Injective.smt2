@@ -153,5 +153,5 @@
 	(=> (and (escape_1 x_34406 xs_394) (isSpecial_1 false_213 y_1350)) (escape_1 (cons_147 y_1350 x_34406) (cons_147 y_1350 xs_394)))))
 (assert (escape_1 nil_166 nil_166))
 (assert (forall ((x_34408 list_147) (xs_395 list_147) (ys_127 list_147))
-	(=> (and true (diseqlist_147 xs_395 ys_127) (escape_1 x_34408 xs_395) (escape_1 x_34408 ys_127)) false)))
+	(=> (and (diseqlist_147 xs_395 ys_127) (escape_1 x_34408 xs_395) (escape_1 x_34408 ys_127)) false)))
 (check-sat)

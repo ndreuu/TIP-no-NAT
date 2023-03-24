@@ -105,5 +105,5 @@
 (assert (forall ((x_2460 list_41))
 	(x_2448 x_2460 nil_41 x_2460)))
 (assert (forall ((x_2461 list_41) (x_2462 list_41) (x_2463 list_41) (n_19 Int) (xs_73 list_41))
-	(=> (and true (diseqlist_41 x_2463 xs_73) (take_8 x_2461 n_19 xs_73) (drop_8 x_2462 n_19 xs_73) (x_2448 x_2463 x_2461 x_2462)) false)))
+	(=> (and (diseqlist_41 x_2463 xs_73) (take_8 x_2461 n_19 xs_73) (drop_8 x_2462 n_19 xs_73) (x_2448 x_2463 x_2461 x_2462)) false)))
 (check-sat)

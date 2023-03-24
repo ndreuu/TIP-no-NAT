@@ -77,5 +77,5 @@
 (assert (forall ((x_56276 list_260))
 	(x_56259 x_56276 nil_290 x_56276)))
 (assert (forall ((x_56277 list_260) (x_56261 Int) (y_2388 list_260) (z_2149 list_260))
-	(=> (and true (elem_24 true_360 x_56261 y_2388) (elem_24 true_360 x_56261 z_2149) (x_56259 x_56277 y_2388 z_2149) (elem_24 false_360 x_56261 x_56277)) false)))
+	(=> (and (elem_24 true_360 x_56261 y_2388) (elem_24 true_360 x_56261 z_2149) (x_56259 x_56277 y_2388 z_2149) (elem_24 false_360 x_56261 x_56277)) false)))
 (check-sat)

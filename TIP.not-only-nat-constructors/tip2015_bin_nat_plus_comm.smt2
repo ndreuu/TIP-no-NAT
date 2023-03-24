@@ -53,5 +53,5 @@
 (assert (forall ((x_18541 Bin_1) (y_716 Bin_1))
 	(=> (s_212 x_18541 y_716) (plus_28 x_18541 One_1 y_716))))
 (assert (forall ((x_18543 Bin_1) (x_18544 Bin_1) (x_18523 Bin_1) (y_717 Bin_1))
-	(=> (and true (diseqBin_1 x_18543 x_18544) (plus_28 x_18543 x_18523 y_717) (plus_28 x_18544 y_717 x_18523)) false)))
+	(=> (and (diseqBin_1 x_18543 x_18544) (plus_28 x_18543 x_18523 y_717) (plus_28 x_18544 y_717 x_18523)) false)))
 (check-sat)

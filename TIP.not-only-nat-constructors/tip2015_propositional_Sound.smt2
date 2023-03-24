@@ -273,5 +273,5 @@
 (assert (forall ((x_31122 list_140) (x_31054 list_140) (q_70 Form_2))
 	(=> (models_16 x_31122 q_70 x_31054) (models_17 x_31122 x_31054 q_70 nil_156))))
 (assert (forall ((x_31124 list_140) (p_207 Form_2))
-	(=> (and true (models_15 x_31124 p_207 nil_155) (formula_2 false_201 p_207 x_31124)) false)))
+	(=> (and (models_15 x_31124 p_207 nil_155) (formula_2 false_201 p_207 x_31124)) false)))
 (check-sat)

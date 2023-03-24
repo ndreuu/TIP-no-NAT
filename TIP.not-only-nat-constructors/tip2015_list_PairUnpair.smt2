@@ -126,5 +126,5 @@
 	(=> (and (length_29 x_45870 l_31) (add_263 x_45869 (S_346 Z_1468) x_45870)) (length_29 x_45869 (cons_179 y_1632 l_31)))))
 (assert (length_29 Z_1468 nil_204))
 (assert (forall ((x_45874 Int) (x_45872 list_180) (x_45873 list_179) (xs_486 list_179))
-	(=> (and true (diseqlist_179 x_45873 xs_486) (length_29 x_45874 xs_486) (pairs_7 x_45872 xs_486) (unpair_1 x_45873 x_45872) (mod_248 Z_1468 x_45874 (S_346 (S_346 Z_1468)))) false)))
+	(=> (and (diseqlist_179 x_45873 xs_486) (length_29 x_45874 xs_486) (pairs_7 x_45872 xs_486) (unpair_1 x_45873 x_45872) (mod_248 Z_1468 x_45874 (S_346 (S_346 Z_1468)))) false)))
 (check-sat)

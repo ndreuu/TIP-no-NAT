@@ -329,5 +329,5 @@
 (assert (forall ((x_44751 Bool_234) (x_42690 R_290))
 	(=> (eps_25 x_44751 x_42690) (recognise_12 x_44751 x_42690 nil_189))))
 (assert (forall ((x_44753 Bool_234) (x_44754 Bool_234) (p_268 R_290) (s_333 list_165))
-	(=> (and true (diseqBool_107 x_44753 x_44754) (recognise_12 x_44753 (Star_12 p_268) s_333) (recognise_12 x_44754 (Plus_92 Eps_24 (Seq_24 p_268 (Star_12 p_268))) s_333)) false)))
+	(=> (and (diseqBool_107 x_44753 x_44754) (recognise_12 x_44753 (Star_12 p_268) s_333) (recognise_12 x_44754 (Plus_92 Eps_24 (Seq_24 p_268 (Star_12 p_268))) s_333)) false)))
 (check-sat)

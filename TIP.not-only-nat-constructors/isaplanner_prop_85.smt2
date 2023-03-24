@@ -151,5 +151,5 @@
 	(=> (and (rev_3 x_1945 xs_56) (x_1924 x_1944 x_1945 (cons_34 y_158 nil_34))) (rev_3 x_1944 (cons_34 y_158 xs_56)))))
 (assert (rev_3 nil_34 nil_34))
 (assert (forall ((x_1953 Int) (x_1948 list_33) (x_1949 list_33) (x_1950 list_34) (x_1951 list_34) (x_1952 list_34) (xs_57 list_33) (ys_19 list_33))
-	(=> (and true (diseqlist_34 x_1950 x_1952) (len_7 x_1953 xs_57) (len_7 x_1953 ys_19) (rev_2 x_1948 xs_57) (rev_2 x_1949 ys_19) (zip_6 x_1950 x_1948 x_1949) (zip_6 x_1951 xs_57 ys_19) (rev_3 x_1952 x_1951)) false)))
+	(=> (and (diseqlist_34 x_1950 x_1952) (len_7 x_1953 xs_57) (len_7 x_1953 ys_19) (rev_2 x_1948 xs_57) (rev_2 x_1949 ys_19) (zip_6 x_1950 x_1948 x_1949) (zip_6 x_1951 xs_57 ys_19) (rev_3 x_1952 x_1951)) false)))
 (check-sat)

@@ -140,6 +140,6 @@
 (assert (forall ((x_18115 Int) (x_18105 list_91) (x_18106 list_91) (x_18103 Int) (ys_55 list_91) (zs_14 list_91) (x_18054 list_91))
 	(=> (and (stoogesort_7 x_18106 zs_14) (x_18046 x_18105 ys_55 x_18106) (length_7 x_18103 x_18054) (splitAt_4 (pair_31 ys_55 zs_14) x_18115 x_18054) (div_124 x_18115 x_18103 (S_206 (S_206 (S_206 Z_702))))) (stoogesort_8 x_18105 x_18054))))
 (assert (forall ((x_18108 list_91) (x_18109 list_91) (xs_215 list_91))
-	(=> (and true (diseqlist_91 x_18108 x_18109) (stoogesort_7 x_18108 xs_215) (isort_5 x_18109 xs_215)) false)))
+	(=> (and (diseqlist_91 x_18108 x_18109) (stoogesort_7 x_18108 xs_215) (isort_5 x_18109 xs_215)) false)))
 (check-sat)
 

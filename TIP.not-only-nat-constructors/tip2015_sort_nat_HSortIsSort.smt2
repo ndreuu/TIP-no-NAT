@@ -153,5 +153,5 @@
 (assert (forall ((x_45038 list_169) (x_45039 Heap_8) (x_44995 list_169))
 	(=> (and (toHeap_12 x_45039 x_44995) (toList_8 x_45038 x_45039)) (hsort_8 x_45038 x_44995))))
 (assert (forall ((x_45041 list_169) (x_45042 list_169) (xs_461 list_169))
-	(=> (and true (diseqlist_169 x_45041 x_45042) (hsort_8 x_45041 xs_461) (isort_20 x_45042 xs_461)) false)))
+	(=> (and (diseqlist_169 x_45041 x_45042) (hsort_8 x_45041 xs_461) (isort_20 x_45042 xs_461)) false)))
 (check-sat)

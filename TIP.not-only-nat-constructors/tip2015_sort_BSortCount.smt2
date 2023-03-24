@@ -130,5 +130,5 @@
 	(bsort_0 (cons_68 y_371 nil_69) (cons_68 y_371 nil_69))))
 (assert (bsort_0 nil_69 nil_69))
 (assert (forall ((x_4455 list_68) (x_4456 Int) (x_4457 Int) (x_4394 Int) (xs_131 list_68))
-	(=> (and true (distinct x_4456 x_4457) (bsort_0 x_4455 xs_131) (count_11 x_4456 x_4394 x_4455) (count_11 x_4457 x_4394 xs_131)) false)))
+	(=> (and (distinct x_4456 x_4457) (bsort_0 x_4455 xs_131) (count_11 x_4456 x_4394 x_4455) (count_11 x_4457 x_4394 xs_131)) false)))
 (check-sat)

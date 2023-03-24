@@ -706,5 +706,5 @@
 (assert (forall ((x_76753 Bool_401) (x_76754 Map_2) (z_2436 Int) (y_2761 Int) (x_76292 Map_3))
 	(=> (and (x_76257 x_76754 x_76292 z_2436) (x_76251 x_76753 x_76754 y_2761)) (x_76291 x_76753 x_76292 (pair_133 z_2436 y_2761)))))
 (assert (forall ((r_534 Int) (g_1 Int) (q_227 Reach_0))
-	(=> (and true (psafe_0 false_401 Z_2437 r_534 g_1 q_227)) false)))
+	(=> (and (psafe_0 false_401 Z_2437 r_534 g_1 q_227)) false)))
 (check-sat)

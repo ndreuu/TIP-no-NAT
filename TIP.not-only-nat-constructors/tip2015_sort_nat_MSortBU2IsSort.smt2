@@ -128,5 +128,5 @@
 	(=> (and (isort_6 x_18206 xs_220) (insert_6 x_18205 y_694 x_18206)) (isort_6 x_18205 (cons_92 y_694 xs_220)))))
 (assert (isort_6 nil_99 nil_99))
 (assert (forall ((x_18209 list_92) (x_18210 list_92) (xs_221 list_92))
-	(=> (and true (diseqlist_92 x_18209 x_18210) (msortbu_0 x_18209 xs_221) (isort_6 x_18210 xs_221)) false)))
+	(=> (and (diseqlist_92 x_18209 x_18210) (msortbu_0 x_18209 xs_221) (isort_6 x_18210 xs_221)) false)))
 (check-sat)

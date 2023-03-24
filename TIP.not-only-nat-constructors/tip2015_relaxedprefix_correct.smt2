@@ -144,5 +144,5 @@
 (assert (forall ((x_44916 Bool_235) (x_44917 list_168) (x_44918 list_166) (x_44889 list_167) (y_1549 list_167))
 	(=> (and (removeOne_1 x_44917 x_44889) (spec_0 x_44918 y_1549 (cons_168 x_44889 x_44917)) (or_239 x_44916 x_44918)) (spec_1 x_44916 x_44889 y_1549))))
 (assert (forall ((x_44920 Bool_235) (x_44921 Bool_235) (xs_458 list_167) (ys_143 list_167))
-	(=> (and true (diseqBool_108 x_44920 x_44921) (isRelaxedPrefix_3 x_44920 xs_458 ys_143) (spec_1 x_44921 xs_458 ys_143)) false)))
+	(=> (and (diseqBool_108 x_44920 x_44921) (isRelaxedPrefix_3 x_44920 xs_458 ys_143) (spec_1 x_44921 xs_458 ys_143)) false)))
 (check-sat)

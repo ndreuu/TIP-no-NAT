@@ -69,5 +69,5 @@
 (assert (forall ((x_406 Int))
 	(count_0 Z_38 x_406 nil_8)))
 (assert (forall ((x_420 Int) (x_421 Int) (n_2 Int) (xs_13 list_8))
-	(=> (and true (distinct (S_13 x_420) x_421) (count_0 x_420 n_2 xs_13) (count_0 x_421 n_2 (cons_8 n_2 xs_13))) false)))
+	(=> (and (distinct (S_13 x_420) x_421) (count_0 x_420 n_2 xs_13) (count_0 x_421 n_2 (cons_8 n_2 xs_13))) false)))
 (check-sat)

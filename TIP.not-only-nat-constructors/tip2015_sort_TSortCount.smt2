@@ -128,5 +128,5 @@
 (assert (forall ((x_53208 list_215) (x_53209 Tree_8) (x_53188 list_215))
 	(=> (and (toTree_4 x_53209 x_53188) (flatten_9 x_53208 x_53209 nil_243)) (tsort_4 x_53208 x_53188))))
 (assert (forall ((x_53211 list_215) (x_53212 Int) (x_53213 Int) (x_53189 Int) (xs_597 list_215))
-	(=> (and true (distinct x_53212 x_53213) (tsort_4 x_53211 xs_597) (count_34 x_53212 x_53189 x_53211) (count_34 x_53213 x_53189 xs_597)) false)))
+	(=> (and (distinct x_53212 x_53213) (tsort_4 x_53211 xs_597) (count_34 x_53212 x_53189 x_53211) (count_34 x_53213 x_53189 xs_597)) false)))
 (check-sat)

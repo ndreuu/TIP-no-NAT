@@ -92,5 +92,5 @@
 (assert (forall ((x_128096 list_422) (x_128097 list_422) (x_128098 list_422) (x_128099 list_422) (x_128100 list_422) (x_128101 list_422) (a_139 E_72) (b_156 E_72))
 	(=> (and (lin_5 x_128097 a_139) (lin_5 x_128098 b_156) (x_128088 x_128099 x_128098 (cons_416 D_11 nil_484)) (x_128088 x_128100 (cons_416 D_11 (cons_416 Pl_4 (cons_416 C_91 nil_484))) x_128099) (x_128088 x_128101 x_128097 x_128100) (x_128088 x_128096 (cons_416 C_91 nil_484) x_128101)) (lin_5 x_128096 (Plus_142 a_139 b_156)))))
 (assert (forall ((x_128103 list_422) (u_40 E_72) (v_41 E_72))
-	(=> (and true (diseqE_12 u_40 v_41) (lin_5 x_128103 u_40) (lin_5 x_128103 v_41)) false)))
+	(=> (and (diseqE_12 u_40 v_41) (lin_5 x_128103 u_40) (lin_5 x_128103 v_41)) false)))
 (check-sat)

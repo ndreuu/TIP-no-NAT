@@ -201,5 +201,5 @@
 (assert (forall ((x_125517 Bool_435) (x_125486 R_644))
 	(=> (eps_95 x_125517 x_125486) (rec_33 x_125517 x_125486 nil_447))))
 (assert (forall ((p_596 R_644) (q_365 R_644) (a_120 T_37) (b_134 T_37))
-	(=> (and true (rec_33 true_435 (Star_47 (x_125480 p_596 q_365)) (cons_384 a_120 (cons_384 b_134 nil_447))) (rec_33 false_435 (x_125480 (Star_47 p_596) (Star_47 q_365)) (cons_384 a_120 (cons_384 b_134 nil_447)))) false)))
+	(=> (and (rec_33 true_435 (Star_47 (x_125480 p_596 q_365)) (cons_384 a_120 (cons_384 b_134 nil_447))) (rec_33 false_435 (x_125480 (Star_47 p_596) (Star_47 q_365)) (cons_384 a_120 (cons_384 b_134 nil_447)))) false)))
 (check-sat)

@@ -93,5 +93,5 @@
 (assert (forall ((x_55041 list_239))
 	(drop_54 x_55041 Z_2019 x_55041)))
 (assert (forall ((x_55042 list_239) (x_55043 list_239) (x_55044 list_239) (x_55045 list_239) (x_55037 Int) (y_2256 Int) (z_2021 list_239))
-	(=> (and true (diseqlist_239 x_55043 x_55045) (drop_54 x_55042 y_2256 z_2021) (drop_54 x_55043 x_55037 x_55042) (drop_54 x_55044 x_55037 z_2021) (drop_54 x_55045 y_2256 x_55044)) false)))
+	(=> (and (diseqlist_239 x_55043 x_55045) (drop_54 x_55042 y_2256 z_2021) (drop_54 x_55043 x_55037 x_55042) (drop_54 x_55044 x_55037 z_2021) (drop_54 x_55045 y_2256 x_55044)) false)))
 (check-sat)

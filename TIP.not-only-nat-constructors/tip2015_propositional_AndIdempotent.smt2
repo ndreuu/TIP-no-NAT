@@ -266,5 +266,5 @@
 (assert (forall ((x_26771 Form_1))
 	(=> (models_9 nil_143 (Not_181 x_26771) nil_142) (valid_1 true_180 x_26771))))
 (assert (forall ((x_26832 Bool_180) (x_26833 Bool_180) (p_168 Form_1))
-	(=> (and true (diseqBool_77 x_26832 x_26833) (valid_1 x_26832 (x_26753 p_168 p_168)) (valid_1 x_26833 p_168)) false)))
+	(=> (and (diseqBool_77 x_26832 x_26833) (valid_1 x_26832 (x_26753 p_168 p_168)) (valid_1 x_26833 p_168)) false)))
 (check-sat)

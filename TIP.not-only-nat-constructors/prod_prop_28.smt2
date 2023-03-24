@@ -115,5 +115,5 @@
 	(=> (and (revflat_0 x_55471 xss_9) (rev_12 x_55472 xs_663) (x_55452 x_55470 x_55471 x_55472)) (revflat_0 x_55470 (cons_247 xs_663 xss_9)))))
 (assert (revflat_0 nil_276 nil_277))
 (assert (forall ((x_55475 list_246) (x_55476 list_246) (x_55457 list_247))
-	(=> (and true (diseqlist_246 x_55475 x_55476) (revflat_0 x_55475 x_55457) (qrevflat_0 x_55476 x_55457 nil_276)) false)))
+	(=> (and (diseqlist_246 x_55475 x_55476) (revflat_0 x_55475 x_55457) (qrevflat_0 x_55476 x_55457 nil_276)) false)))
 (check-sat)

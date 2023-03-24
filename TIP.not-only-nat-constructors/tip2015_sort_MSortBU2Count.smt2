@@ -140,5 +140,5 @@
 (assert (forall ((x_46324 Int))
 	(count_26 Z_1494 x_46324 nil_206)))
 (assert (forall ((x_46360 list_181) (x_46361 Int) (x_46362 Int) (x_46325 Int) (xs_497 list_181))
-	(=> (and true (distinct x_46361 x_46362) (msortbu_3 x_46360 xs_497) (count_26 x_46361 x_46325 x_46360) (count_26 x_46362 x_46325 xs_497)) false)))
+	(=> (and (distinct x_46361 x_46362) (msortbu_3 x_46360 xs_497) (count_26 x_46361 x_46325 x_46360) (count_26 x_46362 x_46325 xs_497)) false)))
 (check-sat)

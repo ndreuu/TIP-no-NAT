@@ -107,5 +107,5 @@
 (assert (forall ((x_128027 list_421) (a_138 A_135))
 	(=> (linA_0 x_128027 a_138) (linS_0 x_128027 (A_136 a_138)))))
 (assert (forall ((x_128029 list_421) (u_39 S_648) (v_40 S_648))
-	(=> (and true (diseqS_0 u_39 v_40) (linS_0 x_128029 u_39) (linS_0 x_128029 v_40)) false)))
+	(=> (and (diseqS_0 u_39 v_40) (linS_0 x_128029 u_39) (linS_0 x_128029 v_40)) false)))
 (check-sat)

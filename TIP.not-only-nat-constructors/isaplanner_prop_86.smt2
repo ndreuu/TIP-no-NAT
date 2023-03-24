@@ -79,5 +79,5 @@
 (assert (forall ((x_68 Int))
 	(ins_0 (cons_2 x_68 nil_2) x_68 nil_2)))
 (assert (forall ((x_91 list_2) (x_92 Bool_1) (x_93 Bool_1) (x_69 Int) (y_9 Int) (xs_3 list_2))
-	(=> (and true (diseqBool_0 x_92 x_93) (x_65 true_1 x_69 y_9) (ins_0 x_91 y_9 xs_3) (elem_0 x_92 x_69 x_91) (elem_0 x_93 x_69 xs_3)) false)))
+	(=> (and (diseqBool_0 x_92 x_93) (x_65 true_1 x_69 y_9) (ins_0 x_91 y_9 xs_3) (elem_0 x_92 x_69 x_91) (elem_0 x_93 x_69 xs_3)) false)))
 (check-sat)

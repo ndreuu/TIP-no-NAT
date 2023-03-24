@@ -123,5 +123,5 @@
 (assert (forall ((x_21046 list_100) (x_21047 list_101) (x_21004 list_100))
 	(=> (and (risers_1 x_21047 x_21004) (mergingbu_1 x_21046 x_21047)) (msortbu_1 x_21046 x_21004))))
 (assert (forall ((x_21049 list_100) (xs_238 list_100))
-	(=> (and true (msortbu_1 x_21049 xs_238) (ordered_5 false_136 x_21049)) false)))
+	(=> (and (msortbu_1 x_21049 xs_238) (ordered_5 false_136 x_21049)) false)))
 (check-sat)

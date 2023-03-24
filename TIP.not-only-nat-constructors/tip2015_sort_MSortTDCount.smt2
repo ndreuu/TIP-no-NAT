@@ -82,5 +82,5 @@
 (assert (forall ((x_18395 Int))
 	(count_16 Z_724 x_18395 nil_104)))
 (assert (forall ((x_18430 list_96) (x_18431 Int) (x_18432 Int) (x_18396 Int) (xs_225 list_96))
-	(=> (and true (distinct x_18431 x_18432) (msorttd_2 x_18430 xs_225) (count_16 x_18431 x_18396 x_18430) (count_16 x_18432 x_18396 xs_225)) false)))
+	(=> (and (distinct x_18431 x_18432) (msorttd_2 x_18430 xs_225) (count_16 x_18431 x_18396 x_18430) (count_16 x_18432 x_18396 xs_225)) false)))
 (check-sat)

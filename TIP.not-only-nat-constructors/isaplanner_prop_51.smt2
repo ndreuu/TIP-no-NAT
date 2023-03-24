@@ -87,5 +87,5 @@
 (assert (forall ((x_3459 list_58))
 	(x_3450 x_3459 nil_58 x_3459)))
 (assert (forall ((x_3460 list_58) (x_3461 list_58) (xs_109 list_58) (x_3452 Int))
-	(=> (and true (diseqlist_58 x_3461 xs_109) (x_3450 x_3460 xs_109 (cons_58 x_3452 nil_58)) (butlast_3 x_3461 x_3460)) false)))
+	(=> (and (diseqlist_58 x_3461 xs_109) (x_3450 x_3460 xs_109 (cons_58 x_3452 nil_58)) (butlast_3 x_3461 x_3460)) false)))
 (check-sat)

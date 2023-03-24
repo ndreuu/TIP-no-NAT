@@ -143,5 +143,5 @@
 (assert (forall ((z Int) (y_61 list_15))
 	(=> (<= z 0) (take_2 nil_15 z y_61))))
 (assert (forall ((x_768 list_15) (x_769 list_15) (x_770 list_14) (x_771 list_14) (x_772 list_15) (n_6 Int) (xs_21 list_14) (ys_8 list_14))
-	(=> (and true (diseqlist_15 x_769 x_772) (zip_3 x_768 xs_21 ys_8) (take_2 x_769 n_6 x_768) (take_1 x_770 n_6 xs_21) (take_1 x_771 n_6 ys_8) (zip_3 x_772 x_770 x_771)) false)))
+	(=> (and (diseqlist_15 x_769 x_772) (zip_3 x_768 xs_21 ys_8) (take_2 x_769 n_6 x_768) (take_1 x_770 n_6 xs_21) (take_1 x_771 n_6 ys_8) (zip_3 x_772 x_770 x_771)) false)))
 (check-sat)

@@ -86,5 +86,5 @@
 (assert (forall ((x_7081 list_74))
 	(x_7064 x_7081 nil_77 x_7081)))
 (assert (forall ((x_7082 list_74) (x_7066 It_0) (xs_145 list_74) (ys_36 list_74))
-	(=> (and true (x_7064 x_7082 xs_145 ys_36) (isRelaxedPrefix_0 false_91 (cons_74 x_7066 xs_145) x_7082)) false)))
+	(=> (and (x_7064 x_7082 xs_145 ys_36) (isRelaxedPrefix_0 false_91 (cons_74 x_7066 xs_145) x_7082)) false)))
 (check-sat)

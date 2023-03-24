@@ -85,5 +85,5 @@
 (assert (forall ((x_15206 Int))
 	(count_14 Z_646 x_15206 nil_92)))
 (assert (forall ((x_15247 list_86) (x_15248 Int) (x_15249 Int) (x_15207 Int) (xs_192 list_86))
-	(=> (and true (distinct x_15248 x_15249) (nmsorttd_0 x_15247 xs_192) (count_14 x_15248 x_15207 x_15247) (count_14 x_15249 x_15207 xs_192)) false)))
+	(=> (and (distinct x_15248 x_15249) (nmsorttd_0 x_15247 xs_192) (count_14 x_15248 x_15207 x_15247) (count_14 x_15249 x_15207 xs_192)) false)))
 (check-sat)

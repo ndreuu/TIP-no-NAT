@@ -60,5 +60,5 @@
 (assert (forall ((x_22152 Bin_3))
 	(times_8 x_22152 One_3 x_22152)))
 (assert (forall ((x_22153 Bin_3) (x_22154 Bin_3) (x_22155 Bin_3) (x_22156 Bin_3) (x_22157 Bin_3) (x_22127 Bin_3) (y_842 Bin_3) (z_841 Bin_3))
-	(=> (and true (diseqBin_3 x_22154 x_22157) (plus_40 x_22153 y_842 z_841) (times_8 x_22154 x_22127 x_22153) (times_8 x_22155 x_22127 y_842) (times_8 x_22156 x_22127 z_841) (plus_40 x_22157 x_22155 x_22156)) false)))
+	(=> (and (diseqBin_3 x_22154 x_22157) (plus_40 x_22153 y_842 z_841) (times_8 x_22154 x_22127 x_22153) (times_8 x_22155 x_22127 y_842) (times_8 x_22156 x_22127 z_841) (plus_40 x_22157 x_22155 x_22156)) false)))
 (check-sat)

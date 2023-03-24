@@ -82,5 +82,5 @@
 	(sorted_2 true_326 (cons_231 y_2207 nil_261))))
 (assert (sorted_2 true_326 nil_261))
 (assert (forall ((x_54572 list_231) (x_54549 list_231))
-	(=> (and true (isort_29 x_54572 x_54549) (sorted_2 false_326 x_54572)) false)))
+	(=> (and (isort_29 x_54572 x_54549) (sorted_2 false_326 x_54572)) false)))
 (check-sat)

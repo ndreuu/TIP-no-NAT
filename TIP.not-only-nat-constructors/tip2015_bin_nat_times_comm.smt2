@@ -60,5 +60,5 @@
 (assert (forall ((x_52336 Bin_14))
 	(times_33 x_52336 One_16 x_52336)))
 (assert (forall ((x_52337 Bin_14) (x_52338 Bin_14) (x_52311 Bin_14) (y_2003 Bin_14))
-	(=> (and true (diseqBin_14 x_52337 x_52338) (times_33 x_52337 x_52311 y_2003) (times_33 x_52338 y_2003 x_52311)) false)))
+	(=> (and (diseqBin_14 x_52337 x_52338) (times_33 x_52337 x_52311 y_2003) (times_33 x_52338 y_2003 x_52311)) false)))
 (check-sat)

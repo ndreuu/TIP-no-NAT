@@ -69,5 +69,5 @@
 (assert (forall ((x_4032 Int))
 	(count_9 Z_418 x_4032 nil_65)))
 (assert (forall ((x_4045 Int) (x_4046 Int) (n_31 Int) (xs_122 list_65))
-	(=> (and true (distinct (S_149 x_4045) x_4046) (count_9 x_4045 n_31 xs_122) (count_9 x_4046 n_31 (cons_65 n_31 xs_122))) false)))
+	(=> (and (distinct (S_149 x_4045) x_4046) (count_9 x_4045 n_31 xs_122) (count_9 x_4046 n_31 (cons_65 n_31 xs_122))) false)))
 (check-sat)

@@ -105,5 +105,5 @@
 	(nmsorttd_4 (cons_209 y_2026 nil_237) (cons_209 y_2026 nil_237))))
 (assert (nmsorttd_4 nil_237 nil_237))
 (assert (forall ((x_52662 list_209) (x_52663 list_209) (xs_582 list_209))
-	(=> (and true (diseqlist_209 x_52662 x_52663) (nmsorttd_4 x_52662 xs_582) (isort_25 x_52663 xs_582)) false)))
+	(=> (and (diseqlist_209 x_52662 x_52663) (nmsorttd_4 x_52662 xs_582) (isort_25 x_52663 xs_582)) false)))
 (check-sat)

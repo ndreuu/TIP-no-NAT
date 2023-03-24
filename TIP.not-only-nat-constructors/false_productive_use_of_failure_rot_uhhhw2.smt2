@@ -35,5 +35,5 @@
 	(=> (length_68 x_115689 xs_870) (length_68 (S_616 x_115689) (cons_372 y_3124 xs_870)))))
 (assert (length_68 Z_2680 nil_432))
 (assert (forall ((x_115691 Int) (xs_871 list_378) (ys_239 list_378))
-	(=> (and true (diseqlist_372 xs_871 ys_239) (length_68 x_115691 xs_871) (length_68 x_115691 ys_239)) false)))
+	(=> (and (diseqlist_372 xs_871 ys_239) (length_68 x_115691 xs_871) (length_68 x_115691 ys_239)) false)))
 (check-sat)

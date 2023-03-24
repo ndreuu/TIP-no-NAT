@@ -103,5 +103,5 @@
 	(=> (and (height_0 x_3686 l_1) (height_0 x_3687 r_71) (max_3 x_3688 x_3686 x_3687)) (height_0 (S_135 x_3688) (Node_0 l_1 y_302 r_71)))))
 (assert (height_0 Z_381 Leaf_0))
 (assert (forall ((x_3690 Tree_0) (x_3691 Int) (x_3692 Int) (a_6 Tree_0))
-	(=> (and true (distinct x_3691 x_3692) (mirror_0 x_3690 a_6) (height_0 x_3691 x_3690) (height_0 x_3692 a_6)) false)))
+	(=> (and (distinct x_3691 x_3692) (mirror_0 x_3690 a_6) (height_0 x_3691 x_3690) (height_0 x_3692 a_6)) false)))
 (check-sat)

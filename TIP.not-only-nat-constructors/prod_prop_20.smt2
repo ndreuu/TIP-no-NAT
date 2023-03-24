@@ -126,5 +126,5 @@
 (assert (forall ((x_55783 list_252))
 	(x_55771 x_55783 nil_282 x_55783)))
 (assert (forall ((x_55784 list_252) (x_55785 Int) (x_55773 list_252))
-	(=> (and true (x_55771 x_55784 x_55773 x_55773) (length_49 x_55785 x_55784) (even_4 false_351 x_55785)) false)))
+	(=> (and (x_55771 x_55784 x_55773 x_55773) (length_49 x_55785 x_55784) (even_4 false_351 x_55785)) false)))
 (check-sat)

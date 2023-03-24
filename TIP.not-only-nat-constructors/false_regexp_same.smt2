@@ -313,5 +313,5 @@
 (assert (forall ((p_543 R_582) (q_298 R_582))
 	(reck_7 nil_402 p_543 q_298 nil_404)))
 (assert (forall ((x_106453 Bool_417) (x_106454 Bool_417) (p_544 R_582) (s_589 list_353))
-	(=> (and true (diseqBool_203 x_106453 x_106454) (okay_2 true_417 p_544) (rec_25 x_106453 p_544 s_589) (reck_6 x_106454 p_544 s_589)) false)))
+	(=> (and (diseqBool_203 x_106453 x_106454) (okay_2 true_417 p_544) (rec_25 x_106453 p_544 s_589) (reck_6 x_106454 p_544 s_589)) false)))
 (check-sat)

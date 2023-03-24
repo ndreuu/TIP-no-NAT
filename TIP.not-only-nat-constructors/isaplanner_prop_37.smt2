@@ -76,5 +76,5 @@
 (assert (forall ((x_2166 Int))
 	(elem_3 false_40 x_2166 nil_38)))
 (assert (forall ((x_2186 list_38) (x_2167 Int) (xs_65 list_38))
-	(=> (and true (delete_1 x_2186 x_2167 xs_65) (elem_3 true_40 x_2167 x_2186)) false)))
+	(=> (and (delete_1 x_2186 x_2167 xs_65) (elem_3 true_40 x_2167 x_2186)) false)))
 (check-sat)

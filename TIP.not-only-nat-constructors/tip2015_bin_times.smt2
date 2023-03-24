@@ -121,5 +121,5 @@
 (assert (forall ((x_12695 Bin_0))
 	(times_2 x_12695 One_0 x_12695)))
 (assert (forall ((x_12704 Int) (x_12696 Bin_0) (x_12697 Int) (x_12698 Int) (x_12699 Int) (x_12663 Bin_0) (y_564 Bin_0))
-	(=> (and true (distinct x_12697 x_12704) (times_2 x_12696 x_12663 y_564) (toNat_0 x_12697 x_12696) (toNat_0 x_12698 x_12663) (toNat_0 x_12699 y_564) (mult_111 x_12704 x_12698 x_12699)) false)))
+	(=> (and (distinct x_12697 x_12704) (times_2 x_12696 x_12663 y_564) (toNat_0 x_12697 x_12696) (toNat_0 x_12698 x_12663) (toNat_0 x_12699 y_564) (mult_111 x_12704 x_12698 x_12699)) false)))
 (check-sat)

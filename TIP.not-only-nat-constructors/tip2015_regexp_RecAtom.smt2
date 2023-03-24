@@ -337,5 +337,5 @@
 (assert (forall ((x_37382 Bool_224) (x_35315 R_271))
 	(=> (eps_19 x_37382 x_35315) (recognise_9 x_37382 x_35315 nil_173))))
 (assert (forall ((x_37384 Bool_224) (x_37385 Bool_224) (a_40 A_38) (s_320 list_153))
-	(=> (and true (diseqBool_101 x_37384 x_37385) (recognise_9 x_37384 (Atom_9 a_40) s_320) (eqList_0 x_37385 s_320 (cons_153 a_40 nil_173))) false)))
+	(=> (and (diseqBool_101 x_37384 x_37385) (recognise_9 x_37384 (Atom_9 a_40) s_320) (eqList_0 x_37385 s_320 (cons_153 a_40 nil_173))) false)))
 (check-sat)

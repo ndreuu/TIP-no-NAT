@@ -110,5 +110,5 @@
 (assert (forall ((x_26434 list_123) (x_26435 Heap_4) (x_26409 list_123))
 	(=> (and (toHeap_6 x_26435 x_26409) (toList_4 x_26434 x_26435)) (hsort_4 x_26434 x_26409))))
 (assert (forall ((x_26437 list_123) (x_26438 list_123) (xs_330 list_123))
-	(=> (and true (diseqlist_123 x_26437 x_26438) (hsort_4 x_26437 xs_330) (isort_14 x_26438 xs_330)) false)))
+	(=> (and (diseqlist_123 x_26437 x_26438) (hsort_4 x_26437 xs_330) (isort_14 x_26438 xs_330)) false)))
 (check-sat)

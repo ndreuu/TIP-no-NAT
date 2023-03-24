@@ -329,5 +329,5 @@
 (assert (forall ((x_33303 Bool_202) (x_31242 R_242))
 	(=> (eps_17 x_33303 x_31242) (recognise_8 x_33303 x_31242 nil_158))))
 (assert (forall ((x_33305 Bool_202) (x_33306 Bool_202) (p_211 R_242) (q_75 R_242) (r_245 R_242) (s_295 list_141))
-	(=> (and true (diseqBool_89 x_33305 x_33306) (recognise_8 x_33305 (Seq_16 p_211 (Plus_67 q_75 r_245)) s_295) (recognise_8 x_33306 (Plus_67 (Seq_16 p_211 q_75) (Seq_16 p_211 r_245)) s_295)) false)))
+	(=> (and (diseqBool_89 x_33305 x_33306) (recognise_8 x_33305 (Seq_16 p_211 (Plus_67 q_75 r_245)) s_295) (recognise_8 x_33306 (Plus_67 (Seq_16 p_211 q_75) (Seq_16 p_211 r_245)) s_295)) false)))
 (check-sat)

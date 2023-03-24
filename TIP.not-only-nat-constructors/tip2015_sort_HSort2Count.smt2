@@ -132,5 +132,5 @@
 (assert (forall ((x_28289 Int))
 	(count_23 Z_1109 x_28289 nil_147)))
 (assert (forall ((x_28315 list_133) (x_28316 Int) (x_28317 Int) (x_28290 Int) (xs_356 list_133))
-	(=> (and true (distinct x_28316 x_28317) (hsort_5 x_28315 xs_356) (count_23 x_28316 x_28290 x_28315) (count_23 x_28317 x_28290 xs_356)) false)))
+	(=> (and (distinct x_28316 x_28317) (hsort_5 x_28315 xs_356) (count_23 x_28316 x_28290 x_28315) (count_23 x_28317 x_28290 xs_356)) false)))
 (check-sat)

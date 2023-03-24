@@ -60,5 +60,5 @@
 (assert (forall ((x_46164 Bin_11))
 	(times_24 x_46164 One_12 x_46164)))
 (assert (forall ((x_46165 Bin_11) (x_46166 Bin_11) (x_46167 Bin_11) (x_46168 Bin_11) (x_46139 Bin_11) (y_1645 Bin_11) (z_1480 Bin_11))
-	(=> (and true (diseqBin_11 x_46166 x_46168) (times_24 x_46165 y_1645 z_1480) (times_24 x_46166 x_46139 x_46165) (times_24 x_46167 x_46139 y_1645) (times_24 x_46168 x_46167 z_1480)) false)))
+	(=> (and (diseqBin_11 x_46166 x_46168) (times_24 x_46165 y_1645 z_1480) (times_24 x_46166 x_46139 x_46165) (times_24 x_46167 x_46139 y_1645) (times_24 x_46168 x_46167 z_1480)) false)))
 (check-sat)

@@ -78,5 +78,5 @@
 	(=> (and (rev_1 x_1565 xs_43) (x_1546 x_1564 x_1565 (cons_28 y_124 nil_28))) (rev_1 x_1564 (cons_28 y_124 xs_43)))))
 (assert (rev_1 nil_28 nil_28))
 (assert (forall ((x_1568 Int) (x_1569 list_28) (x_1570 Int) (n_12 Int) (xs_44 list_28))
-	(=> (and true (distinct x_1568 x_1570) (count_3 x_1568 n_12 xs_44) (rev_1 x_1569 xs_44) (count_3 x_1570 n_12 x_1569)) false)))
+	(=> (and (distinct x_1568 x_1570) (count_3 x_1568 n_12 xs_44) (rev_1 x_1569 xs_44) (count_3 x_1570 n_12 x_1569)) false)))
 (check-sat)

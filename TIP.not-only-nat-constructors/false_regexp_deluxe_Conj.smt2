@@ -500,5 +500,5 @@
 (assert (forall ((x_92265 Bool_412) (x_87891 R_562))
 	(=> (eps_69 x_92265 x_87891) (rec_20 x_92265 x_87891 nil_392))))
 (assert (forall ((p_513 R_562) (s_580 list_347))
-	(=> (and true (eps_69 false_412 p_513) (rec_20 true_412 (x_87873 p_513 (x_87874 p_513 p_513)) s_580)) false)))
+	(=> (and (eps_69 false_412 p_513) (rec_20 true_412 (x_87873 p_513 (x_87874 p_513 p_513)) s_580)) false)))
 (check-sat)

@@ -104,5 +104,5 @@
 (assert (forall ((y_26 Int))
 	(x_321 Z_28 Z_28 y_26)))
 (assert (forall ((x_335 list_7) (x_336 Int) (x_337 Int) (x_338 Int) (n_0 Int) (xs_12 list_7))
-	(=> (and true (distinct x_336 x_338) (drop_1 x_335 n_0 xs_12) (len_1 x_336 x_335) (len_1 x_337 xs_12) (x_321 x_338 x_337 n_0)) false)))
+	(=> (and (distinct x_336 x_338) (drop_1 x_335 n_0 xs_12) (len_1 x_336 x_335) (len_1 x_337 xs_12) (x_321 x_338 x_337 n_0)) false)))
 (check-sat)

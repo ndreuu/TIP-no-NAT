@@ -104,5 +104,5 @@
 	(=> (and (rev_8 x_54362 xs_624) (x_54348 x_54361 x_54362 (cons_228 y_2184 nil_258))) (rev_8 x_54361 (cons_228 y_2184 xs_624)))))
 (assert (rev_8 nil_258 nil_258))
 (assert (forall ((x_54365 list_228) (x_54366 list_228) (x_54367 Int) (x_54368 Int) (x_54369 Int) (x_54370 Int) (x_54351 list_228) (y_2185 list_228))
-	(=> (and true (distinct x_54367 x_54370) (x_54348 x_54365 x_54351 y_2185) (rev_8 x_54366 x_54365) (length_44 x_54367 x_54366) (length_44 x_54368 x_54351) (length_44 x_54369 y_2185) (x_54346 x_54370 x_54368 x_54369)) false)))
+	(=> (and (distinct x_54367 x_54370) (x_54348 x_54365 x_54351 y_2185) (rev_8 x_54366 x_54365) (length_44 x_54367 x_54366) (length_44 x_54368 x_54351) (length_44 x_54369 y_2185) (x_54346 x_54370 x_54368 x_54369)) false)))
 (check-sat)

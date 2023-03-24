@@ -90,5 +90,5 @@
 	(=> (and (isort_30 x_54641 xs_635) (insert_31 x_54640 y_2216 x_54641)) (isort_30 x_54640 (cons_232 y_2216 xs_635)))))
 (assert (isort_30 nil_262 nil_262))
 (assert (forall ((x_54645 list_232) (x_54617 Int) (y_2217 list_232))
-	(=> (and true (isort_30 x_54645 y_2217) (elem_15 true_327 x_54617 x_54645) (elem_15 false_327 x_54617 y_2217)) false)))
+	(=> (and (isort_30 x_54645 y_2217) (elem_15 true_327 x_54617 x_54645) (elem_15 false_327 x_54617 y_2217)) false)))
 (check-sat)

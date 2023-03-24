@@ -266,5 +266,5 @@
 (assert (forall ((x_52827 Form_4))
 	(=> (models_27 nil_241 (Not_305 x_52827) nil_240) (valid_2 true_301 x_52827))))
 (assert (forall ((p_374 Form_4) (q_122 Form_4))
-	(=> (and true (valid_2 true_301 (x_52809 p_374 q_122)) (valid_2 false_301 q_122)) false)))
+	(=> (and (valid_2 true_301 (x_52809 p_374 q_122)) (valid_2 false_301 q_122)) false)))
 (check-sat)

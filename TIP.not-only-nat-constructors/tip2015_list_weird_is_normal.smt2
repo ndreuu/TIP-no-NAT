@@ -169,5 +169,5 @@
 	(=> (and (concat_1 x_42522 xs_453) (x_42497 x_42521 y_1529 x_42522)) (concat_1 x_42521 (cons_162 y_1529 xs_453)))))
 (assert (concat_1 nil_183 nil_184))
 (assert (forall ((x_42525 list_161) (x_42526 list_161) (x_42500 list_162))
-	(=> (and true (diseqlist_161 x_42525 x_42526) (concat_1 x_42525 x_42500) (weirdconcat_1 x_42526 x_42500)) false)))
+	(=> (and (diseqlist_161 x_42525 x_42526) (concat_1 x_42525 x_42500) (weirdconcat_1 x_42526 x_42500)) false)))
 (check-sat)

@@ -78,5 +78,5 @@
 	(sorted_0 true_11 (cons_12 y_51 nil_12))))
 (assert (sorted_0 true_11 nil_12))
 (assert (forall ((x_652 list_12) (x_633 Int) (xs_19 list_12))
-	(=> (and true (sorted_0 true_11 xs_19) (insort_0 x_652 x_633 xs_19) (sorted_0 false_11 x_652)) false)))
+	(=> (and (sorted_0 true_11 xs_19) (insort_0 x_652 x_633 xs_19) (sorted_0 false_11 x_652)) false)))
 (check-sat)

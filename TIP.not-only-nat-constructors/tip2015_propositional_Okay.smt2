@@ -301,5 +301,5 @@
 (assert (forall ((x_49616 list_191) (x_49544 list_191) (q_114 Form_3))
 	(=> (models_22 x_49616 q_114 x_49544) (models_23 x_49616 x_49544 q_114 nil_217))))
 (assert (forall ((x_49618 list_191) (p_311 Form_3))
-	(=> (and true (models_21 x_49618 p_311 nil_216) (formula_3 false_263 x_49618)) false)))
+	(=> (and (models_21 x_49618 p_311 nil_216) (formula_3 false_263 x_49618)) false)))
 (check-sat)

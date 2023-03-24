@@ -103,5 +103,5 @@
 (assert (forall ((x_51054 list_201))
 	(x_51042 x_51054 nil_229 x_51054)))
 (assert (forall ((x_51055 list_201) (x_51056 list_201) (x_51057 list_201) (x_51058 list_201) (x_51059 list_201) (n_96 Int) (xs_545 list_201))
-	(=> (and true (diseqlist_201 x_51056 x_51059) (x_51042 x_51055 xs_545 xs_545) (rotate_4 x_51056 n_96 x_51055) (rotate_4 x_51057 n_96 xs_545) (rotate_4 x_51058 n_96 xs_545) (x_51042 x_51059 x_51057 x_51058)) false)))
+	(=> (and (diseqlist_201 x_51056 x_51059) (x_51042 x_51055 xs_545 xs_545) (rotate_4 x_51056 n_96 x_51055) (rotate_4 x_51057 n_96 xs_545) (rotate_4 x_51058 n_96 xs_545) (x_51042 x_51059 x_51057 x_51058)) false)))
 (check-sat)

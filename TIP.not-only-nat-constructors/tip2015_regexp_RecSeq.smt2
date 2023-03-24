@@ -404,5 +404,5 @@
 (assert (forall ((p_19 R_93) (q_6 R_93))
 	(formula_0 nil_72 p_19 q_6 nil_75)))
 (assert (forall ((x_6769 Bool_89) (x_6770 list_72) (x_6771 list_70) (x_6772 Bool_89) (p_20 R_93) (q_7 R_93) (s_165 list_71))
-	(=> (and true (diseqBool_38 x_6769 x_6772) (recognise_0 x_6769 (Seq_0 p_20 q_7) s_165) (split_1 x_6770 s_165) (formula_0 x_6771 p_20 q_7 x_6770) (or_89 x_6772 x_6771)) false)))
+	(=> (and (diseqBool_38 x_6769 x_6772) (recognise_0 x_6769 (Seq_0 p_20 q_7) s_165) (split_1 x_6770 s_165) (formula_0 x_6771 p_20 q_7 x_6770) (or_89 x_6772 x_6771)) false)))
 (check-sat)

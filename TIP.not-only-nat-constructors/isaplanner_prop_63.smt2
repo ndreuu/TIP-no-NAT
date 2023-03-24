@@ -1,5 +1,4 @@
 (set-logic HORN)
-(set-option :produce-proofs true)
 (define-fun Z_403 () Int 0)
 (define-fun S_143 ((x Int)) Int (+ x 1))
 (declare-datatypes ((Bool_74 0)) (((false_74) (true_74))))
@@ -82,6 +81,5 @@
 (assert (forall ((x_3895 Int))
 	(x_3894 false_74 x_3895 Z_403)))
 (assert (forall ((x_3915 Int) (x_3912 list_63) (x_3913 Int) (x_3914 Int) (n_30 Int) (xs_118 list_63))
-	(=> (and true (distinct x_3913 x_3914) (len_12 x_3915 xs_118) (x_3894 true_74 n_30 x_3915) (drop_14 x_3912 n_30 xs_118) (last_7 x_3913 x_3912) (last_7 x_3914 xs_118)) false)))
+	(=> (and (distinct x_3913 x_3914) (len_12 x_3915 xs_118) (x_3894 true_74 n_30 x_3915) (drop_14 x_3912 n_30 xs_118) (last_7 x_3913 x_3912) (last_7 x_3914 xs_118)) false)))
 (check-sat)
-(get-proof)

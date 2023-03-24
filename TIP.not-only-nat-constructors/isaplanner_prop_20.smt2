@@ -79,5 +79,5 @@
 	(=> (and (sort_1 x_2902 xs_89) (insort_2 x_2901 y_236 x_2902)) (sort_1 x_2901 (cons_49 y_236 xs_89)))))
 (assert (sort_1 nil_49 nil_49))
 (assert (forall ((x_2905 list_49) (x_2906 Int) (x_2907 Int) (xs_90 list_49))
-	(=> (and true (distinct x_2906 x_2907) (sort_1 x_2905 xs_90) (len_9 x_2906 x_2905) (len_9 x_2907 xs_90)) false)))
+	(=> (and (distinct x_2906 x_2907) (sort_1 x_2905 xs_90) (len_9 x_2906 x_2905) (len_9 x_2907 xs_90)) false)))
 (check-sat)

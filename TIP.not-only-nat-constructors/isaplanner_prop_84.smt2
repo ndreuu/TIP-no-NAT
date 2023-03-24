@@ -157,5 +157,5 @@
 (assert (forall ((x_2658 list_44))
 	(x_2636 x_2658 nil_44 x_2658)))
 (assert (forall ((x_2659 list_43) (x_2660 list_44) (x_2661 Int) (x_2662 list_43) (x_2663 list_44) (x_2664 Int) (x_2665 list_43) (x_2666 list_44) (x_2667 list_44) (xs_80 list_43) (ys_21 list_43) (zs_1 list_43))
-	(=> (and true (diseqlist_44 x_2660 x_2667) (x_2634 x_2659 ys_21 zs_1) (zip_7 x_2660 xs_80 x_2659) (len_8 x_2661 ys_21) (take_9 x_2662 x_2661 xs_80) (zip_7 x_2663 x_2662 ys_21) (len_8 x_2664 ys_21) (drop_9 x_2665 x_2664 xs_80) (zip_7 x_2666 x_2665 zs_1) (x_2636 x_2667 x_2663 x_2666)) false)))
+	(=> (and (diseqlist_44 x_2660 x_2667) (x_2634 x_2659 ys_21 zs_1) (zip_7 x_2660 xs_80 x_2659) (len_8 x_2661 ys_21) (take_9 x_2662 x_2661 xs_80) (zip_7 x_2663 x_2662 ys_21) (len_8 x_2664 ys_21) (drop_9 x_2665 x_2664 xs_80) (zip_7 x_2666 x_2665 zs_1) (x_2636 x_2667 x_2663 x_2666)) false)))
 (check-sat)

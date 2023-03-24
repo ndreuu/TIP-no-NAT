@@ -111,5 +111,5 @@
 (assert (forall ((x_53859 list_220) (x_53860 Tree_10) (x_53834 list_220))
 	(=> (and (toTree_5 x_53860 x_53834) (flatten_12 x_53859 x_53860 nil_250)) (tsort_5 x_53859 x_53834))))
 (assert (forall ((x_53862 list_220) (xs_607 list_220))
-	(=> (and true (tsort_5 x_53862 xs_607) (ordered_25 false_313 x_53862)) false)))
+	(=> (and (tsort_5 x_53862 xs_607) (ordered_25 false_313 x_53862)) false)))
 (check-sat)

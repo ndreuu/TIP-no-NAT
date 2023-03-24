@@ -113,5 +113,5 @@
 (assert (forall ((x_25501 Int) (x_25489 list_118) (x_25490 list_118) (x_25487 Int) (ys_91 list_118) (zs_25 list_118) (x_25444 list_118))
 	(=> (and (stoogesort_13 x_25490 zs_25) (x_25437 x_25489 ys_91 x_25490) (length_12 x_25487 x_25444) (splitAt_7 (pair_41 ys_91 zs_25) x_25501 x_25444) (div_165 x_25501 x_25487 (S_255 (S_255 (S_255 Z_936))))) (stoogesort_14 x_25489 x_25444))))
 (assert (forall ((x_25492 list_118) (x_25493 list_118) (xs_303 list_118))
-	(=> (and true (diseqlist_118 x_25492 x_25493) (stoogesort_13 x_25492 xs_303) (isort_12 x_25493 xs_303)) false)))
+	(=> (and (diseqlist_118 x_25492 x_25493) (stoogesort_13 x_25492 xs_303) (isort_12 x_25493 xs_303)) false)))
 (check-sat)

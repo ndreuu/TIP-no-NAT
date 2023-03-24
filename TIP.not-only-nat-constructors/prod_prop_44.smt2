@@ -79,5 +79,5 @@
 (assert (forall ((y_2155 list_222))
 	(intersect_0 nil_252 nil_252 y_2155)))
 (assert (forall ((x_54050 list_222) (x_54030 Int) (y_2156 list_222) (z_1920 list_222))
-	(=> (and true (elem_13 true_316 x_54030 y_2156) (elem_13 true_316 x_54030 z_1920) (intersect_0 x_54050 y_2156 z_1920) (elem_13 false_316 x_54030 x_54050)) false)))
+	(=> (and (elem_13 true_316 x_54030 y_2156) (elem_13 true_316 x_54030 z_1920) (intersect_0 x_54050 y_2156 z_1920) (elem_13 false_316 x_54030 x_54050)) false)))
 (check-sat)

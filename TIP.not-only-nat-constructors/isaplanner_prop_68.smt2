@@ -76,5 +76,5 @@
 (assert (forall ((x Int) (y Int)) (=> (<= x y) (x_460 true_8 x y))))
 (assert (forall ((x Int) (y Int)) (=> (not (<= x y)) (x_460 false_8 x y))))
 (assert (forall ((x_482 list_9) (x_483 Int) (x_484 Int) (n_3 Int) (xs_16 list_9))
-	(=> (and true (delete_0 x_482 n_3 xs_16) (len_2 x_483 x_482) (len_2 x_484 xs_16) (x_460 false_8 x_483 x_484)) false)))
+	(=> (and (delete_0 x_482 n_3 xs_16) (len_2 x_483 x_482) (len_2 x_484 xs_16) (x_460 false_8 x_483 x_484)) false)))
 (check-sat)

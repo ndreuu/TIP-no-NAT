@@ -74,5 +74,5 @@
 (assert (forall ((x_3226 list_54))
 	(x_3210 x_3226 nil_54 x_3226)))
 (assert (forall ((x_3227 list_54) (x_3228 Int) (x_3229 Int) (n_24 Int) (m_11 Int) (xs_101 list_54))
-	(=> (and true (distinct x_3228 x_3229) (x_3206 false_60 n_24 m_11) (x_3210 x_3227 xs_101 (cons_54 m_11 nil_54)) (count_6 x_3228 n_24 x_3227) (count_6 x_3229 n_24 xs_101)) false)))
+	(=> (and (distinct x_3228 x_3229) (x_3206 false_60 n_24 m_11) (x_3210 x_3227 xs_101 (cons_54 m_11 nil_54)) (count_6 x_3228 n_24 x_3227) (count_6 x_3229 n_24 xs_101)) false)))
 (check-sat)

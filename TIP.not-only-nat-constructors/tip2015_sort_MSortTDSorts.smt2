@@ -121,5 +121,5 @@
 	(msorttd_4 (cons_204 y_1968 nil_232) (cons_204 y_1968 nil_232))))
 (assert (msorttd_4 nil_232 nil_232))
 (assert (forall ((x_51847 list_204) (xs_562 list_204))
-	(=> (and true (msorttd_4 x_51847 xs_562) (ordered_23 false_287 x_51847)) false)))
+	(=> (and (msorttd_4 x_51847 xs_562) (ordered_23 false_287 x_51847)) false)))
 (check-sat)

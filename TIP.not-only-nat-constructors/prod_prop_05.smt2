@@ -99,5 +99,5 @@
 	(=> (and (rev_7 x_54224 xs_618) (x_54213 x_54223 x_54224 (cons_225 y_2172 nil_255))) (rev_7 x_54223 (cons_225 y_2172 xs_618)))))
 (assert (rev_7 nil_255 nil_255))
 (assert (forall ((x_54227 list_225) (x_54228 Int) (x_54229 Int) (x_54216 list_225))
-	(=> (and true (distinct x_54228 x_54229) (rev_7 x_54227 x_54216) (length_42 x_54228 x_54227) (length_42 x_54229 x_54216)) false)))
+	(=> (and (distinct x_54228 x_54229) (rev_7 x_54227 x_54216) (length_42 x_54228 x_54227) (length_42 x_54229 x_54216)) false)))
 (check-sat)

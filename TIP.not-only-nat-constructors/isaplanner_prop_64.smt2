@@ -42,5 +42,5 @@
 (assert (forall ((x_2848 list_48))
 	(x_2839 x_2848 nil_48 x_2848)))
 (assert (forall ((x_2849 list_48) (x_2850 Int) (x_2841 Int) (xs_86 list_48))
-	(=> (and true (distinct x_2850 x_2841) (x_2839 x_2849 xs_86 (cons_48 x_2841 nil_48)) (last_4 x_2850 x_2849)) false)))
+	(=> (and (distinct x_2850 x_2841) (x_2839 x_2849 xs_86 (cons_48 x_2841 nil_48)) (last_4 x_2850 x_2849)) false)))
 (check-sat)

@@ -40,5 +40,5 @@
 (assert (forall ((x_126227 list_399))
 	(x_126220 x_126227 nil_459 x_126227)))
 (assert (forall ((x_126228 list_399) (x_126229 Int) (x_126230 Int) (xs_895 list_399) (ys_244 list_399))
-	(=> (and true (distinct x_126229 x_126230) (x_126220 x_126228 xs_895 ys_244) (length_70 x_126229 x_126228) (length_70 x_126230 xs_895)) false)))
+	(=> (and (distinct x_126229 x_126230) (x_126220 x_126228 xs_895 ys_244) (length_70 x_126229 x_126228) (length_70 x_126230 xs_895)) false)))
 (check-sat)

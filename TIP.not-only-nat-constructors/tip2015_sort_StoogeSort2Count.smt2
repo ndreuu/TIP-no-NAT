@@ -147,5 +147,5 @@
 (assert (forall ((x_31004 Int) (x_30990 list_137) (x_30991 list_137) (x_30988 Int) (ys_124 list_137) (zs_40 list_137) (x_30947 list_137))
 	(=> (and (stoogesort_25 x_30991 zs_40) (x_30940 x_30990 ys_124 x_30991) (length_18 x_30988 x_30947) (splitAt_13 (pair_59 ys_124 zs_40) x_31004 x_30947) (div_200 x_31004 x_30988 (S_293 (S_293 (S_293 Z_1150))))) (stoogesort_26 x_30990 x_30947))))
 (assert (forall ((x_30993 list_137) (x_30994 Int) (x_30995 Int) (x_30948 Int) (xs_374 list_137))
-	(=> (and true (distinct x_30994 x_30995) (stoogesort_25 x_30993 xs_374) (count_25 x_30994 x_30948 x_30993) (count_25 x_30995 x_30948 xs_374)) false)))
+	(=> (and (distinct x_30994 x_30995) (stoogesort_25 x_30993 xs_374) (count_25 x_30994 x_30948 x_30993) (count_25 x_30995 x_30948 xs_374)) false)))
 (check-sat)

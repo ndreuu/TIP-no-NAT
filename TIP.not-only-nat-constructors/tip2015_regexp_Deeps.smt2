@@ -346,5 +346,5 @@
 (assert (deeps_0 Nil_210 Eps_26))
 (assert (deeps_0 Nil_210 Nil_210))
 (assert (forall ((x_49135 Bool_260) (x_49136 R_321) (x_49137 Bool_260) (p_304 R_321) (s_362 list_185))
-	(=> (and true (diseqBool_119 x_49135 x_49137) (recognise_13 x_49135 (Star_13 p_304) s_362) (deeps_0 x_49136 p_304) (recognise_13 x_49137 (Star_13 x_49136) s_362)) false)))
+	(=> (and (diseqBool_119 x_49135 x_49137) (recognise_13 x_49135 (Star_13 p_304) s_362) (deeps_0 x_49136 p_304) (recognise_13 x_49137 (Star_13 x_49136) s_362)) false)))
 (check-sat)

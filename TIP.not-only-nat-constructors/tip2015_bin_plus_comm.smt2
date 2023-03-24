@@ -53,5 +53,5 @@
 (assert (forall ((x_52575 Bin_15) (y_2017 Bin_15))
 	(=> (s_403 x_52575 y_2017) (plus_130 x_52575 One_17 y_2017))))
 (assert (forall ((x_52577 Bin_15) (x_52578 Bin_15) (x_52557 Bin_15) (y_2018 Bin_15))
-	(=> (and true (diseqBin_15 x_52577 x_52578) (plus_130 x_52577 x_52557 y_2018) (plus_130 x_52578 y_2018 x_52557)) false)))
+	(=> (and (diseqBin_15 x_52577 x_52578) (plus_130 x_52577 x_52557 y_2018) (plus_130 x_52578 y_2018 x_52557)) false)))
 (check-sat)

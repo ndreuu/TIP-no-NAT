@@ -161,5 +161,5 @@
 (assert (forall ((x_15005 list_85) (x_15006 list_85) (x_15002 Int) (x_15003 Int) (ys_50 list_85) (zs_10 list_85) (x_14945 list_85))
 	(=> (and (nstoogesort_4 x_15006 zs_10) (x_14937 x_15005 ys_50 x_15006) (length_3 x_15002 x_14945) (third_1 x_15003 x_15002) (splitAt_2 (pair_27 ys_50 zs_10) x_15003 x_14945)) (nstoogesort_5 x_15005 x_14945))))
 (assert (forall ((x_15008 list_85) (x_15009 Int) (x_15010 Int) (x_14946 Int) (xs_189 list_85))
-	(=> (and true (distinct x_15009 x_15010) (nstoogesort_4 x_15008 xs_189) (count_13 x_15009 x_14946 x_15008) (count_13 x_15010 x_14946 xs_189)) false)))
+	(=> (and (distinct x_15009 x_15010) (nstoogesort_4 x_15008 xs_189) (count_13 x_15009 x_14946 x_15008) (count_13 x_15010 x_14946 xs_189)) false)))
 (check-sat)

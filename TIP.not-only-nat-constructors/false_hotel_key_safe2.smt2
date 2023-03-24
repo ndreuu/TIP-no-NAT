@@ -706,5 +706,5 @@
 (assert (forall ((x_115334 Bool_429) (x_115335 Map_17) (z_2677 Int) (y_3122 Int) (x_114873 Map_18))
 	(=> (and (x_114838 x_115335 x_114873 z_2677) (x_114832 x_115334 x_115335 y_3122)) (x_114872 x_115334 x_114873 (pair_189 z_2677 y_3122)))))
 (assert (forall ((dom_0 Int) (r_626 Int) (g_7 Int) (q_340 Reach_6))
-	(=> (and true (psafe_3 false_429 dom_0 r_626 g_7 q_340)) false)))
+	(=> (and (psafe_3 false_429 dom_0 r_626 g_7 q_340)) false)))
 (check-sat)

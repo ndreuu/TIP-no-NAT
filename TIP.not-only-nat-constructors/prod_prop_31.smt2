@@ -81,5 +81,5 @@
 (assert (forall ((x_54265 list_226))
 	(qrev_0 x_54265 nil_256 x_54265)))
 (assert (forall ((x_54266 list_226) (x_54267 list_226) (x_54262 list_226))
-	(=> (and true (diseqlist_226 x_54267 x_54262) (qrev_0 x_54266 x_54262 nil_256) (qrev_0 x_54267 x_54266 nil_256)) false)))
+	(=> (and (diseqlist_226 x_54267 x_54262) (qrev_0 x_54266 x_54262 nil_256) (qrev_0 x_54267 x_54266 nil_256)) false)))
 (check-sat)

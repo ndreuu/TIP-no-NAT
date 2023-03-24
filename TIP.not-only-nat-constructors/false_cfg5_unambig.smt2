@@ -155,5 +155,5 @@
 (assert (forall ((x_87790 list_346) (x_87791 list_346) (x_87792 list_346) (x_87793 list_346) (a_98 E_51) (b_97 E_51))
 	(=> (and (linTerm_0 x_87791 a_98) (linTerm_0 x_87792 b_97) (x_87745 x_87793 (cons_341 Plus_137 nil_391) x_87792) (x_87745 x_87790 x_87791 x_87793)) (lin_0 x_87790 (x_87740 a_98 b_97)))))
 (assert (forall ((x_87797 list_346) (x_87795 E_51) (x_87796 E_51) (u_19 E_51) (v_19 E_51))
-	(=> (and true (diseqE_5 x_87795 x_87796) (lin_0 x_87797 u_19) (lin_0 x_87797 v_19) (assoc_0 x_87795 u_19) (assoc_0 x_87796 v_19)) false)))
+	(=> (and (diseqE_5 x_87795 x_87796) (lin_0 x_87797 u_19) (lin_0 x_87797 v_19) (assoc_0 x_87795 u_19) (assoc_0 x_87796 v_19)) false)))
 (check-sat)

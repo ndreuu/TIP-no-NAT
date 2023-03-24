@@ -99,5 +99,5 @@
 	(s_232 (OneAnd_2 xs_258) (ZeroAnd_2 xs_258))))
 (assert (s_232 (ZeroAnd_2 One_2) One_2))
 (assert (forall ((x_22009 Int) (x_22002 Bin_2) (x_22003 Int) (x_22004 Int) (n_46 Bin_2))
-	(=> (and true (distinct x_22003 x_22009) (s_232 x_22002 n_46) (toNat_1 x_22003 x_22002) (toNat_1 x_22004 n_46) (add_157 x_22009 (S_233 Z_832) x_22004)) false)))
+	(=> (and (distinct x_22003 x_22009) (s_232 x_22002 n_46) (toNat_1 x_22003 x_22002) (toNat_1 x_22004 n_46) (add_157 x_22009 (S_233 Z_832) x_22004)) false)))
 (check-sat)

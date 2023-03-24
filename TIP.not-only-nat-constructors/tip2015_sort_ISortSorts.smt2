@@ -115,5 +115,5 @@
 	(=> (and (isort_17 x_34557 xs_403) (insert_17 x_34556 y_1368 x_34557)) (isort_17 x_34556 (cons_149 y_1368 xs_403)))))
 (assert (isort_17 nil_168 nil_168))
 (assert (forall ((x_34560 list_149) (xs_404 list_149))
-	(=> (and true (isort_17 x_34560 xs_404) (ordered_13 false_215 x_34560)) false)))
+	(=> (and (isort_17 x_34560 xs_404) (ordered_13 false_215 x_34560)) false)))
 (check-sat)

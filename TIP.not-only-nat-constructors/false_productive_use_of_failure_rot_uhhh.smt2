@@ -47,5 +47,5 @@
 (assert (forall ((z_2211 Int))
 	(rotate_7 nil_308 (S_518 z_2211) nil_308)))
 (assert (forall ((x_57422 Int) (x_57418 Int) (x_57419 list_276) (x_57420 list_276) (xs_714 list_276) (ys_203 list_276))
-	(=> (and true (diseqlist_276 xs_714 ys_203) (length_55 x_57422 xs_714) (length_55 x_57422 ys_203) (length_55 x_57418 xs_714) (x_57402 x_57419 xs_714 ys_203) (rotate_7 x_57420 x_57418 x_57419) (x_57402 x_57420 xs_714 ys_203)) false)))
+	(=> (and (diseqlist_276 xs_714 ys_203) (length_55 x_57422 xs_714) (length_55 x_57422 ys_203) (length_55 x_57418 xs_714) (x_57402 x_57419 xs_714 ys_203) (rotate_7 x_57420 x_57418 x_57419) (x_57402 x_57420 xs_714 ys_203)) false)))
 (check-sat)

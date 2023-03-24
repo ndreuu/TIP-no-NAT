@@ -138,5 +138,5 @@
 (assert (forall ((ys_62 list_97) (x_18464 list_97))
 	(=> (bubble_1 (pair_33 false_129 ys_62) x_18464) (bubsort_1 x_18464 x_18464))))
 (assert (forall ((x_18484 list_97) (x_18485 list_97) (xs_229 list_97))
-	(=> (and true (diseqlist_97 x_18484 x_18485) (bubsort_1 x_18484 xs_229) (isort_7 x_18485 xs_229)) false)))
+	(=> (and (diseqlist_97 x_18484 x_18485) (bubsort_1 x_18484 xs_229) (isort_7 x_18485 xs_229)) false)))
 (check-sat)

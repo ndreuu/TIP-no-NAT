@@ -36,5 +36,5 @@
 (assert (forall ((x_56885 list_267))
 	(x_56881 x_56885 nil_299 x_56885)))
 (assert (forall ((x_56886 list_267) (xs_702 list_267) (ys_199 list_267) (zs_69 list_267))
-	(=> (and true (diseqlist_267 xs_702 zs_69) (x_56881 x_56886 xs_702 ys_199) (x_56881 x_56886 zs_69 ys_199)) false)))
+	(=> (and (diseqlist_267 xs_702 zs_69) (x_56881 x_56886 xs_702 ys_199) (x_56881 x_56886 zs_69 ys_199)) false)))
 (check-sat)

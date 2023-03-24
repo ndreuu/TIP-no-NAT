@@ -93,5 +93,5 @@
 (assert (forall ((y_90 list_23))
 	(take_4 nil_23 Z_113 y_90)))
 (assert (forall ((x_1192 list_23) (x_1193 list_23) (n_8 Int) (x_1187 Int) (xs_29 list_23))
-	(=> (and true (diseqlist_23 x_1192 (cons_23 x_1187 x_1193)) (distinct 0 (S_39 n_8)) (take_4 x_1192 (S_39 n_8) (cons_23 x_1187 xs_29)) (take_4 x_1193 n_8 xs_29)) false)))
+	(=> (and (diseqlist_23 x_1192 (cons_23 x_1187 x_1193)) (distinct 0 (S_39 n_8)) (take_4 x_1192 (S_39 n_8) (cons_23 x_1187 xs_29)) (take_4 x_1193 n_8 xs_29)) false)))
 (check-sat)

@@ -351,5 +351,5 @@
 	(=> (and (reverse_0 x_11676 xs_159) (x_9595 x_11675 x_11676 (cons_78 y_458 nil_83))) (reverse_0 x_11675 (cons_78 y_458 xs_159)))))
 (assert (reverse_0 nil_83 nil_83))
 (assert (forall ((x_11679 R_107) (x_11680 Bool_97) (x_11681 list_78) (x_11682 Bool_97) (r_110 R_107) (s_175 list_78))
-	(=> (and true (diseqBool_45 x_11680 x_11682) (rev_5 x_11679 r_110) (recognise_2 x_11680 x_11679 s_175) (reverse_0 x_11681 s_175) (recognise_2 x_11682 r_110 x_11681)) false)))
+	(=> (and (diseqBool_45 x_11680 x_11682) (rev_5 x_11679 r_110) (recognise_2 x_11680 x_11679 s_175) (reverse_0 x_11681 s_175) (recognise_2 x_11682 r_110 x_11681)) false)))
 (check-sat)

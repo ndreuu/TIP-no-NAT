@@ -500,5 +500,5 @@
 (assert (forall ((x_106182 Bool_416) (x_101808 R_578))
 	(=> (eps_77 x_106182 x_101808) (rec_24 x_106182 x_101808 nil_400))))
 (assert (forall ((x_106184 Bool_416) (x_106185 Bool_416) (p_535 R_578) (q_289 R_578) (a_104 T_25) (b_108 T_25))
-	(=> (and true (diseqBool_202 x_106184 x_106185) (rec_24 x_106184 (Star_38 (x_101789 p_535 q_289)) (cons_346 a_104 (cons_346 b_108 nil_400))) (rec_24 x_106185 (x_101789 (Star_38 p_535) (Star_38 q_289)) (cons_346 a_104 (cons_346 b_108 nil_400)))) false)))
+	(=> (and (diseqBool_202 x_106184 x_106185) (rec_24 x_106184 (Star_38 (x_101789 p_535 q_289)) (cons_346 a_104 (cons_346 b_108 nil_400))) (rec_24 x_106185 (x_101789 (Star_38 p_535) (Star_38 q_289)) (cons_346 a_104 (cons_346 b_108 nil_400)))) false)))
 (check-sat)

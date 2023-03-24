@@ -75,5 +75,5 @@
 (assert (forall ((x_3978 Int))
 	(ins_4 (cons_64 x_3978 nil_64) x_3978 nil_64)))
 (assert (forall ((x_3993 list_64) (x_3994 Int) (x_3995 Int) (x_3979 Int) (xs_121 list_64))
-	(=> (and true (distinct x_3994 (S_147 x_3995)) (ins_4 x_3993 x_3979 xs_121) (len_13 x_3994 x_3993) (len_13 x_3995 xs_121)) false)))
+	(=> (and (distinct x_3994 (S_147 x_3995)) (ins_4 x_3993 x_3979 xs_121) (len_13 x_3994 x_3993) (len_13 x_3995 xs_121)) false)))
 (check-sat)

@@ -79,5 +79,5 @@
 (assert (forall ((x_55134 list_240))
 	(union_1 x_55134 nil_270 x_55134)))
 (assert (forall ((x_55135 list_240) (x_55115 Int) (y_2267 list_240) (z_2033 list_240))
-	(=> (and true (elem_17 true_337 x_55115 y_2267) (union_1 x_55135 z_2033 y_2267) (elem_17 false_337 x_55115 x_55135)) false)))
+	(=> (and (elem_17 true_337 x_55115 y_2267) (union_1 x_55135 z_2033 y_2267) (elem_17 false_337 x_55115 x_55135)) false)))
 (check-sat)

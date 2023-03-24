@@ -87,5 +87,5 @@
 	(=> (and (isort_28 x_54502 xs_629) (insert_29 x_54501 y_2200 x_54502)) (isort_28 x_54501 (cons_230 y_2200 xs_629)))))
 (assert (isort_28 nil_260 nil_260))
 (assert (forall ((x_54505 list_230) (x_54506 Int) (x_54507 Int) (x_54478 Int) (y_2201 list_230))
-	(=> (and true (distinct x_54506 x_54507) (isort_28 x_54505 y_2201) (count_36 x_54506 x_54478 x_54505) (count_36 x_54507 x_54478 y_2201)) false)))
+	(=> (and (distinct x_54506 x_54507) (isort_28 x_54505 y_2201) (count_36 x_54506 x_54478 x_54505) (count_36 x_54507 x_54478 y_2201)) false)))
 (check-sat)

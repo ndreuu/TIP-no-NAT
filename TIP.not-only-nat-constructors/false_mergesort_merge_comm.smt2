@@ -79,5 +79,5 @@
 (assert (forall ((x_125894 list_394))
 	(merge_0 x_125894 nil_453 x_125894)))
 (assert (forall ((x_125899 list_394) (x_125897 list_394) (x_125895 list_394) (x_125896 list_394) (xs_887 list_394) (ys_243 list_394) (zs_75 list_394))
-	(=> (and true (diseqlist_388 x_125895 x_125896) (merge_0 x_125899 xs_887 ys_243) (merge_0 x_125899 ys_243 xs_887) (merge_0 x_125897 xs_887 zs_75) (merge_0 x_125897 zs_75 xs_887) (merge_0 x_125895 ys_243 zs_75) (merge_0 x_125896 zs_75 ys_243)) false)))
+	(=> (and (diseqlist_388 x_125895 x_125896) (merge_0 x_125899 xs_887 ys_243) (merge_0 x_125899 ys_243 xs_887) (merge_0 x_125897 xs_887 zs_75) (merge_0 x_125897 zs_75 xs_887) (merge_0 x_125895 ys_243 zs_75) (merge_0 x_125896 zs_75 ys_243)) false)))
 (check-sat)

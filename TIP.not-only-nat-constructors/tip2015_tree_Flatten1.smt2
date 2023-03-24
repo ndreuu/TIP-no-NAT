@@ -140,5 +140,5 @@
 (assert (forall ((x_42611 list_163) (x_42612 list_163) (x_42613 list_163) (x_42614 list_163) (p_263 Tree_6) (y_1533 Int) (q_95 Tree_6))
 	(=> (and (flatten_7 x_42612 p_263) (flatten_7 x_42613 q_95) (x_42597 x_42614 (cons_163 y_1533 nil_185) x_42613) (x_42597 x_42611 x_42612 x_42614)) (flatten_7 x_42611 (Node_11 p_263 y_1533 q_95)))))
 (assert (forall ((x_42616 list_163) (x_42617 list_163) (p_264 Tree_6))
-	(=> (and true (diseqlist_163 x_42616 x_42617) (flatten_6 x_42616 (cons_164 p_264 nil_187)) (flatten_7 x_42617 p_264)) false)))
+	(=> (and (diseqlist_163 x_42616 x_42617) (flatten_6 x_42616 (cons_164 p_264 nil_187)) (flatten_7 x_42617 p_264)) false)))
 (check-sat)

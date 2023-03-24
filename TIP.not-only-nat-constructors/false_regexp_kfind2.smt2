@@ -300,5 +300,5 @@
 (assert (forall ((p_557 R_602) (q_318 R_602))
 	(reck_9 nil_419 p_557 q_318 nil_421)))
 (assert (forall ((p_558 R_602))
-	(=> (and true (reck_8 true_423 p_558 (cons_363 A_111 (cons_363 B_117 (cons_363 A_111 (cons_363 B_117 nil_420)))))) false)))
+	(=> (and (reck_8 true_423 p_558 (cons_363 A_111 (cons_363 B_117 (cons_363 A_111 (cons_363 B_117 nil_420)))))) false)))
 (check-sat)

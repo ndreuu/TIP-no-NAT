@@ -186,5 +186,5 @@
 (assert (forall ((x_50819 list_199) (x_50820 Heap_10) (x_50787 list_199))
 	(=> (and (toHeap_15 x_50820 x_50787) (toList_10 x_50819 x_50820)) (hsort_10 x_50819 x_50787))))
 (assert (forall ((x_50822 list_199) (xs_542 list_199))
-	(=> (and true (hsort_10 x_50822 xs_542) (ordered_21 false_278 x_50822)) false)))
+	(=> (and (hsort_10 x_50822 xs_542) (ordered_21 false_278 x_50822)) false)))
 (check-sat)

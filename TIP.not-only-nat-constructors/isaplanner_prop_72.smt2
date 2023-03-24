@@ -1,5 +1,4 @@
 (set-logic HORN)
-(set-option :produce-proofs true)
 (define-fun Z_326 () Int 0)
 (define-fun S_115 ((x Int)) Int (+ x 1))
 (define-fun Z_321 () Int 0)
@@ -121,6 +120,5 @@
 	(=> (and (rev_4 x_3166 xs_98) (x_3144 x_3165 x_3166 (cons_53 y_258 nil_53))) (rev_4 x_3165 (cons_53 y_258 xs_98)))))
 (assert (rev_4 nil_53 nil_53))
 (assert (forall ((x_3169 list_53) (x_3170 list_53) (x_3171 Int) (x_3172 Int) (x_3173 list_53) (x_3174 list_53) (i_4 Int) (xs_99 list_53))
-	(=> (and true (diseqlist_53 x_3170 x_3174) (drop_12 x_3169 i_4 xs_99) (rev_4 x_3170 x_3169) (len_10 x_3171 xs_99) (x_3141 x_3172 x_3171 i_4) (rev_4 x_3173 xs_99) (take_11 x_3174 x_3172 x_3173)) false)))
+	(=> (and (diseqlist_53 x_3170 x_3174) (drop_12 x_3169 i_4 xs_99) (rev_4 x_3170 x_3169) (len_10 x_3171 xs_99) (x_3141 x_3172 x_3171 i_4) (rev_4 x_3173 xs_99) (take_11 x_3174 x_3172 x_3173)) false)))
 (check-sat)
-(get-proof)

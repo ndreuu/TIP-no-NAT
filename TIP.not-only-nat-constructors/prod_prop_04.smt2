@@ -99,5 +99,5 @@
 (assert (forall ((x_56437 list_262))
 	(x_56426 x_56437 nil_292 x_56437)))
 (assert (forall ((x_56438 list_262) (x_56439 Int) (x_56440 Int) (x_56441 Int) (x_56428 list_262))
-	(=> (and true (distinct x_56439 x_56441) (x_56426 x_56438 x_56428 x_56428) (length_53 x_56439 x_56438) (length_53 x_56440 x_56428) (double_1 x_56441 x_56440)) false)))
+	(=> (and (distinct x_56439 x_56441) (x_56426 x_56438 x_56428 x_56428) (length_53 x_56439 x_56438) (length_53 x_56440 x_56428) (double_1 x_56441 x_56440)) false)))
 (check-sat)

@@ -77,5 +77,5 @@
 	(=> (and (isort_2 x_12439 xs_172) (insert_2 x_12438 y_537 x_12439)) (isort_2 x_12438 (cons_82 y_537 xs_172)))))
 (assert (isort_2 nil_87 nil_87))
 (assert (forall ((x_12442 list_82) (xs_173 list_82))
-	(=> (and true (isort_2 x_12442 xs_173) (ordered_3 false_108 x_12442)) false)))
+	(=> (and (isort_2 x_12442 xs_173) (ordered_3 false_108 x_12442)) false)))
 (check-sat)

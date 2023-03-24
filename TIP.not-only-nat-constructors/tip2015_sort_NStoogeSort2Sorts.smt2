@@ -1,5 +1,4 @@
 (set-logic HORN)
-(set-option :produce-proofs true)
 (define-fun Z_484 () Int 0)
 (define-fun S_167 ((x Int)) Int (+ x 1))
 (declare-fun unS_181 (Int Int) Bool)
@@ -182,10 +181,5 @@
 (assert (forall ((x_7008 list_73) (x_7009 list_73) (x_7005 Int) (x_7006 Int) (ys_35 list_73) (zs_4 list_73) (x_6946 list_73))
 	(=> (and (nstoogesort_1 x_7009 zs_4) (x_6939 x_7008 ys_35 x_7009) (length_0 x_7005 x_6946) (third_0 x_7006 x_7005) (splitAt_0 (pair_21 ys_35 zs_4) x_7006 x_6946)) (nstoogesort_2 x_7008 x_6946))))
 (assert (forall ((x_7011 list_73) (xs_143 list_73))
-	(=> (and true (nstoogesort_1 x_7011 xs_143) (ordered_0 false_90 x_7011)) false)))
+	(=> (and (nstoogesort_1 x_7011 xs_143) (ordered_0 false_90 x_7011)) false)))
 (check-sat)
-(get-proof)
-
-
-
-

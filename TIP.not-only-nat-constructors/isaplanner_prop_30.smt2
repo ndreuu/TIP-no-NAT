@@ -83,5 +83,5 @@
 (assert (forall ((x_2016 Int))
 	(ins_1 (cons_35 x_2016 nil_35) x_2016 nil_35)))
 (assert (forall ((x_2039 list_35) (x_2017 Int) (xs_60 list_35))
-	(=> (and true (ins_1 x_2039 x_2017 xs_60) (elem_2 false_37 x_2017 x_2039)) false)))
+	(=> (and (ins_1 x_2039 x_2017 xs_60) (elem_2 false_37 x_2017 x_2039)) false)))
 (check-sat)

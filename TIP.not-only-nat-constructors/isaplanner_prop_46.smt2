@@ -183,5 +183,5 @@
 (assert (forall ((y_69 list_16))
 	(zip_5 nil_18 nil_19 y_69)))
 (assert (forall ((x_901 list_18) (xs_22 list_16))
-	(=> (and true (diseqlist_18 x_901 nil_18) (zip_5 x_901 nil_19 xs_22)) false)))
+	(=> (and (diseqlist_18 x_901 nil_18) (zip_5 x_901 nil_19 xs_22)) false)))
 (check-sat)

@@ -587,5 +587,5 @@
 (assert (forall ((x_65303 Bool_389) (x_60822 R_495))
 	(=> (eps_45 x_65303 x_60822) (rec_8 x_65303 x_60822 nil_347))))
 (assert (forall ((x_65305 R_495) (x_65306 R_495) (p_452 R_495) (s_543 list_312))
-	(=> (and true (eps_45 false_389 p_452) (x_60802 x_65305 p_452 p_452) (x_60812 x_65306 p_452 x_65305) (rec_8 true_389 x_65306 s_543)) false)))
+	(=> (and (eps_45 false_389 p_452) (x_60802 x_65305 p_452 p_452) (x_60812 x_65306 p_452 x_65305) (rec_8 true_389 x_65306 s_543)) false)))
 (check-sat)

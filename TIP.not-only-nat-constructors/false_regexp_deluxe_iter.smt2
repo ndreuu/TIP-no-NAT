@@ -560,5 +560,5 @@
 (assert (forall ((x_120121 Bool_431) (x_115744 R_629))
 	(=> (eps_89 x_120121 x_115744) (rec_30 x_120121 x_115744 nil_433))))
 (assert (forall ((x_120123 R_629) (x_120124 R_629) (i_16 Int) (j_4 Int) (p_578 R_629) (s_618 list_379))
-	(=> (and true (distinct i_16 j_4) (eps_89 false_431 p_578) (iter_1 x_120123 i_16 p_578) (iter_1 x_120124 j_4 p_578) (rec_30 true_431 (x_115725 x_120123 x_120124) s_618)) false)))
+	(=> (and (distinct i_16 j_4) (eps_89 false_431 p_578) (iter_1 x_120123 i_16 p_578) (iter_1 x_120124 j_4 p_578) (rec_30 true_431 (x_115725 x_120123 x_120124) s_618)) false)))
 (check-sat)

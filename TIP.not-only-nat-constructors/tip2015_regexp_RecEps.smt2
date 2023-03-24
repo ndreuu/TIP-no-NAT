@@ -329,6 +329,6 @@
 (assert (forall ((x_39708 Bool_226) (x_37646 R_276))
 	(=> (eps_21 x_39708 x_37646) (recognise_10 x_39708 x_37646 nil_175))))
 (assert (forall ((x_37647 A_41) (y_1460 list_154))
-	(=> (and true (recognise_10 true_226 Eps_20 (cons_154 x_37647 y_1460))) false)))
-(assert (=> (and true (recognise_10 false_226 Eps_20 nil_175)) false))
+	(=> (and (recognise_10 true_226 Eps_20 (cons_154 x_37647 y_1460))) false)))
+(assert (=> (and (recognise_10 false_226 Eps_20 nil_175)) false))
 (check-sat)

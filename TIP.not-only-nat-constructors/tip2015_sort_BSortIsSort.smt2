@@ -134,5 +134,5 @@
 	(bsort_3 (cons_115 y_925 nil_127) (cons_115 y_925 nil_127))))
 (assert (bsort_3 nil_127 nil_127))
 (assert (forall ((x_23072 list_115) (x_23073 list_115) (xs_294 list_115))
-	(=> (and true (diseqlist_115 x_23072 x_23073) (bsort_3 x_23072 xs_294) (isort_11 x_23073 xs_294)) false)))
+	(=> (and (diseqlist_115 x_23072 x_23073) (bsort_3 x_23072 xs_294) (isort_11 x_23073 xs_294)) false)))
 (check-sat)

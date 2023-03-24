@@ -153,5 +153,5 @@
 (assert (forall ((x_34329 list_146) (x_34330 Heap_7) (x_34307 list_146))
 	(=> (and (toHeap_10 x_34330 x_34307) (toList_7 x_34329 x_34330)) (hsort_7 x_34329 x_34307))))
 (assert (forall ((x_34332 list_146) (xs_393 list_146))
-	(=> (and true (hsort_7 x_34332 xs_393) (ordered_12 false_212 x_34332)) false)))
+	(=> (and (hsort_7 x_34332 xs_393) (ordered_12 false_212 x_34332)) false)))
 (check-sat)

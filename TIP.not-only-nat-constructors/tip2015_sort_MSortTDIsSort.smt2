@@ -98,5 +98,5 @@
 	(msorttd_1 (cons_90 y_673 nil_97) (cons_90 y_673 nil_97))))
 (assert (msorttd_1 nil_97 nil_97))
 (assert (forall ((x_18010 list_90) (x_18011 list_90) (xs_208 list_90))
-	(=> (and true (diseqlist_90 x_18010 x_18011) (msorttd_1 x_18010 xs_208) (isort_4 x_18011 xs_208)) false)))
+	(=> (and (diseqlist_90 x_18010 x_18011) (msorttd_1 x_18010 xs_208) (isort_4 x_18011 xs_208)) false)))
 (check-sat)

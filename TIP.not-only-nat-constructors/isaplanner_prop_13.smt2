@@ -1,5 +1,4 @@
 (set-logic HORN)
-(set-option :produce-proofs true)
 (define-fun Z_216 () Int 0)
 (define-fun S_76 ((x Int)) Int (+ x 1))
 (define-fun Z_214 () Int 0)
@@ -50,6 +49,5 @@
 (assert (forall ((z Int) (x_2128 list_37))
 	(=> (<= z 0) (drop_7 x_2128 z x_2128))))
 (assert (forall ((x_2129 list_37) (x_2130 list_37) (n_16 Int) (x_2124 Int) (xs_62 list_37))
-	(=> (and true (>= n_16 0) (diseqlist_37 x_2129 x_2130) (drop_7 x_2129 (S_75 n_16) (cons_37 x_2124 xs_62)) (drop_7 x_2130 n_16 xs_62) ) false)))
+	(=> (and (>= n_16 0) (diseqlist_37 x_2129 x_2130) (drop_7 x_2129 (S_75 n_16) (cons_37 x_2124 xs_62)) (drop_7 x_2130 n_16 xs_62) ) false)))
 (check-sat)
-(get-proof)

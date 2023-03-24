@@ -43,5 +43,5 @@
 (assert (forall ((z_2400 Int))
 	(rotate_10 nil_364 z_2400 nil_364)))
 (assert (forall ((x_75964 list_323) (n_113 Int) (xs_802 list_323))
-	(=> (and true (diseqlist_319 xs_802 x_75964) (rotate_10 x_75964 n_113 xs_802)) false)))
+	(=> (and (diseqlist_319 xs_802 x_75964) (rotate_10 x_75964 n_113 xs_802)) false)))
 (check-sat)

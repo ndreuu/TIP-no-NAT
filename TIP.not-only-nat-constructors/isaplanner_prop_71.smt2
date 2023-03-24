@@ -83,5 +83,5 @@
 (assert (forall ((x_3387 Int))
 	(ins_3 (cons_57 x_3387 nil_57) x_3387 nil_57)))
 (assert (forall ((x_3410 list_57) (x_3411 Bool_63) (x_3412 Bool_63) (x_3388 Int) (y_280 Int) (xs_107 list_57))
-	(=> (and true (diseqBool_27 x_3411 x_3412) (x_3380 false_63 x_3388 y_280) (ins_3 x_3410 y_280 xs_107) (elem_7 x_3411 x_3388 x_3410) (elem_7 x_3412 x_3388 xs_107)) false)))
+	(=> (and (diseqBool_27 x_3411 x_3412) (x_3380 false_63 x_3388 y_280) (ins_3 x_3410 y_280 xs_107) (elem_7 x_3411 x_3388 x_3410) (elem_7 x_3412 x_3388 xs_107)) false)))
 (check-sat)

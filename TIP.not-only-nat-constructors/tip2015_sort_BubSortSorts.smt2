@@ -97,5 +97,5 @@
 (assert (forall ((ys_39 list_77) (x_9524 list_77))
 	(=> (bubble_0 (pair_23 false_96 ys_39) x_9524) (bubsort_0 x_9524 x_9524))))
 (assert (forall ((x_9541 list_77) (xs_156 list_77))
-	(=> (and true (bubsort_0 x_9541 xs_156) (ordered_1 false_96 x_9541)) false)))
+	(=> (and (bubsort_0 x_9541 xs_156) (ordered_1 false_96 x_9541)) false)))
 (check-sat)

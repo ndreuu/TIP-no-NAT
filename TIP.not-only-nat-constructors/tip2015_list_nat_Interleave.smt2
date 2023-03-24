@@ -89,5 +89,5 @@
 	(=> (evens_2 x_15411 xs_195) (odds_2 x_15411 (cons_87 y_619 xs_195)))))
 (assert (odds_2 nil_93 nil_93))
 (assert (forall ((x_15414 list_87) (x_15415 list_87) (x_15416 list_87) (xs_196 list_87))
-	(=> (and true (diseqlist_87 x_15416 xs_196) (evens_2 x_15414 xs_196) (odds_2 x_15415 xs_196) (interleave_0 x_15416 x_15414 x_15415)) false)))
+	(=> (and (diseqlist_87 x_15416 xs_196) (evens_2 x_15414 xs_196) (odds_2 x_15415 xs_196) (interleave_0 x_15416 x_15414 x_15415)) false)))
 (check-sat)

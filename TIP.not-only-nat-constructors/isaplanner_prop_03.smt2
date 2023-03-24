@@ -77,5 +77,5 @@
 (assert (forall ((x_1252 list_24))
 	(x_1232 x_1252 nil_24 x_1252)))
 (assert (forall ((x_1253 Int) (x_1254 list_24) (x_1255 Int) (n_9 Int) (xs_31 list_24) (ys_12 list_24))
-	(=> (and true (count_2 x_1253 n_9 xs_31) (x_1232 x_1254 xs_31 ys_12) (count_2 x_1255 n_9 x_1254) (x_1229 false_22 x_1253 x_1255)) false)))
+	(=> (and (count_2 x_1253 n_9 xs_31) (x_1232 x_1254 xs_31 ys_12) (count_2 x_1255 n_9 x_1254) (x_1229 false_22 x_1253 x_1255)) false)))
 (check-sat)

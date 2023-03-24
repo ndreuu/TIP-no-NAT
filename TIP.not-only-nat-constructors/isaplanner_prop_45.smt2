@@ -119,5 +119,5 @@
 (assert (forall ((y_222 list_45))
 	(zip_8 nil_46 nil_45 y_222)))
 (assert (forall ((x_2731 list_46) (x_2732 list_46) (x_2726 Int) (y_223 Int) (xs_81 list_45) (ys_22 list_45))
-	(=> (and true (diseqlist_46 x_2731 (cons_46 (pair_17 x_2726 y_223) x_2732)) (zip_8 x_2731 (cons_45 x_2726 xs_81) (cons_45 y_223 ys_22)) (zip_8 x_2732 xs_81 ys_22)) false)))
+	(=> (and (diseqlist_46 x_2731 (cons_46 (pair_17 x_2726 y_223) x_2732)) (zip_8 x_2731 (cons_45 x_2726 xs_81) (cons_45 y_223 ys_22)) (zip_8 x_2732 xs_81 ys_22)) false)))
 (check-sat)

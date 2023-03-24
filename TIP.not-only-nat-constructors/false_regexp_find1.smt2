@@ -201,5 +201,5 @@
 (assert (forall ((x_75828 Bool_398) (x_75797 R_525))
 	(=> (eps_57 x_75828 x_75797) (rec_14 x_75828 x_75797 nil_362))))
 (assert (forall ((p_480 R_525))
-	(=> (and true (rec_14 true_398 p_480 (cons_318 A_80 (cons_318 B_76 (cons_318 B_76 nil_362))))) false)))
+	(=> (and (rec_14 true_398 p_480 (cons_318 A_80 (cons_318 B_76 (cons_318 B_76 nil_362))))) false)))
 (check-sat)

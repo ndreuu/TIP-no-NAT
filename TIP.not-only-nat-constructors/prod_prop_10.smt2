@@ -85,5 +85,5 @@
 	(=> (and (rev_17 x_56102 xs_686) (x_56094 x_56101 x_56102 (cons_257 y_2367 nil_287))) (rev_17 x_56101 (cons_257 y_2367 xs_686)))))
 (assert (rev_17 nil_287 nil_287))
 (assert (forall ((x_56105 list_257) (x_56106 list_257) (x_56097 list_257))
-	(=> (and true (diseqlist_257 x_56106 x_56097) (rev_17 x_56105 x_56097) (rev_17 x_56106 x_56105)) false)))
+	(=> (and (diseqlist_257 x_56106 x_56097) (rev_17 x_56105 x_56097) (rev_17 x_56106 x_56105)) false)))
 (check-sat)

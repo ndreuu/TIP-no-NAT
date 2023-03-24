@@ -82,5 +82,5 @@
 	(sorted_1 true_44 (cons_40 y_191 nil_40))))
 (assert (sorted_1 true_44 nil_40))
 (assert (forall ((x_2371 list_40) (xs_71 list_40))
-	(=> (and true (sort_0 x_2371 xs_71) (sorted_1 false_44 x_2371)) false)))
+	(=> (and (sort_0 x_2371 xs_71) (sorted_1 false_44 x_2371)) false)))
 (check-sat)

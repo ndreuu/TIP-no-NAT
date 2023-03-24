@@ -86,5 +86,5 @@
 (assert (forall ((x_25356 list_117))
 	(x_25339 x_25356 nil_130 x_25356)))
 (assert (forall ((x_25357 list_117) (x_25358 list_117) (x_25359 list_117) (x_25360 list_117) (x_25341 It_1) (xs_297 list_117) (ys_89 list_117) (zs_23 list_117))
-	(=> (and true (x_25339 x_25357 (cons_117 x_25341 nil_130) ys_89) (x_25339 x_25358 xs_297 x_25357) (x_25339 x_25359 ys_89 zs_23) (x_25339 x_25360 xs_297 x_25359) (isRelaxedPrefix_1 false_163 x_25358 x_25360)) false)))
+	(=> (and (x_25339 x_25357 (cons_117 x_25341 nil_130) ys_89) (x_25339 x_25358 xs_297 x_25357) (x_25339 x_25359 ys_89 zs_23) (x_25339 x_25360 xs_297 x_25359) (isRelaxedPrefix_1 false_163 x_25358 x_25360)) false)))
 (check-sat)

@@ -114,5 +114,5 @@
 (assert (forall ((x_22518 Bin_5) (y_877 Bin_5))
 	(=> (s_241 x_22518 y_877) (plus_44 x_22518 One_5 y_877))))
 (assert (forall ((x_22528 Int) (x_22520 Bin_5) (x_22521 Int) (x_22522 Int) (x_22523 Int) (x_22493 Bin_5) (y_878 Bin_5))
-	(=> (and true (distinct x_22521 x_22528) (plus_44 x_22520 x_22493 y_878) (toNat_3 x_22521 x_22520) (toNat_3 x_22522 x_22493) (toNat_3 x_22523 y_878) (add_164 x_22528 x_22522 x_22523)) false)))
+	(=> (and (distinct x_22521 x_22528) (plus_44 x_22520 x_22493 y_878) (toNat_3 x_22521 x_22520) (toNat_3 x_22522 x_22493) (toNat_3 x_22523 y_878) (add_164 x_22528 x_22522 x_22523)) false)))
 (check-sat)

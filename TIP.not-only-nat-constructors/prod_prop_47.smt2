@@ -85,5 +85,5 @@
 (assert (forall ((x_56214 Bool_359) (x_56215 Bool_359) (x_56190 Int) (y_2380 Int))
 	(=> (and (x_56181 x_56215 x_56190 y_2380) (not_364 x_56214 x_56215)) (x_56189 x_56214 x_56190 y_2380))))
 (assert (forall ((x_56216 list_259) (x_56217 Bool_359) (x_56218 Bool_359) (x_56191 Int) (y_2381 Int) (z_2142 list_259))
-	(=> (and true (diseqBool_163 x_56217 x_56218) (x_56189 true_359 x_56191 y_2381) (insert_34 x_56216 y_2381 z_2142) (elem_23 x_56217 x_56191 x_56216) (elem_23 x_56218 x_56191 z_2142)) false)))
+	(=> (and (diseqBool_163 x_56217 x_56218) (x_56189 true_359 x_56191 y_2381) (insert_34 x_56216 y_2381 z_2142) (elem_23 x_56217 x_56191 x_56216) (elem_23 x_56218 x_56191 z_2142)) false)))
 (check-sat)

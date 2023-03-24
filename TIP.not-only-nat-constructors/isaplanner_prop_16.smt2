@@ -37,5 +37,5 @@
 	(last_1 x_283 (cons_6 x_283 nil_6))))
 (assert (last_1 Z_24 nil_6))
 (assert (forall ((x_285 Int) (x_280 Int))
-	(=> (and true (distinct x_285 x_280) (last_1 x_285 (cons_6 x_280 nil_6))) false)))
+	(=> (and (distinct x_285 x_280) (last_1 x_285 (cons_6 x_280 nil_6))) false)))
 (check-sat)

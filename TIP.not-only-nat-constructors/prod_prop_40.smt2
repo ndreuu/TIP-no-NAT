@@ -89,5 +89,5 @@
 (assert (forall ((y_2279 list_242))
 	(subset_0 true_339 nil_272 y_2279)))
 (assert (forall ((x_55252 list_242) (x_55225 list_242) (y_2280 list_242))
-	(=> (and true (diseqlist_242 x_55252 y_2280) (subset_0 true_339 x_55225 y_2280) (union_2 x_55252 x_55225 y_2280)) false)))
+	(=> (and (diseqlist_242 x_55252 y_2280) (subset_0 true_339 x_55225 y_2280) (union_2 x_55252 x_55225 y_2280)) false)))
 (check-sat)

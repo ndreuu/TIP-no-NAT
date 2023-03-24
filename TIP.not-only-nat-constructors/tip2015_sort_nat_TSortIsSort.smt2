@@ -120,5 +120,5 @@
 (assert (forall ((x_21288 list_103) (x_21289 Tree_3) (x_21258 list_103))
 	(=> (and (toTree_1 x_21289 x_21258) (flatten_3 x_21288 x_21289 nil_113)) (tsort_1 x_21288 x_21258))))
 (assert (forall ((x_21291 list_103) (x_21292 list_103) (xs_245 list_103))
-	(=> (and true (diseqlist_103 x_21291 x_21292) (tsort_1 x_21291 xs_245) (isort_9 x_21292 xs_245)) false)))
+	(=> (and (diseqlist_103 x_21291 x_21292) (tsort_1 x_21291 xs_245) (isort_9 x_21292 xs_245)) false)))
 (check-sat)
