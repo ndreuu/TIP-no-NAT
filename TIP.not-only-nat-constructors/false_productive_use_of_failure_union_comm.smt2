@@ -1,4 +1,5 @@
 (set-logic HORN)
+(set-option :produce-proofs true)
 (define-fun S_553 ((x Int)) Int (+ x 1))
 (define-fun Z_2371 () Int 0)
 (declare-datatypes ((Bool_395 0)) (((false_395) (true_395))))
@@ -81,3 +82,4 @@
 (assert (forall ((x_70601 list_318) (x_70602 list_318) (xs_789 list_318) (ys_220 list_318))
 	(=> (and true (diseqlist_315 x_70601 x_70602) (union_4 x_70601 xs_789 ys_220) (union_4 x_70602 ys_220 xs_789)) false)))
 (check-sat)
+(get-proof)
