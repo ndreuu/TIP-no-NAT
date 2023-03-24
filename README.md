@@ -6,5 +6,5 @@ Adapted from pure ADT benchmarks taken from [``Tons of Inductive Problems''](htt
 
 Clauses are generally **not** linear.
 
-[`adt_lia`](adt_lia) contains CHC systems over `QF_DTLIA`
-[`pure_adt`](pure_adt) contains **same** (at least, similar) CHC systems over `QF_DT`
+- [`adt_lia`](adt_lia) contains CHC systems over `QF_DTLIA`
+- [`pure_adt`](pure_adt) contains **same** (at least, similar) CHC systems over `QF_DT`
